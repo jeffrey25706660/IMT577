@@ -11,11 +11,21 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="19"
-  DTS:VersionGUID="{FC51809E-2DE5-4B23-960A-9AE7A786EC7F}">
+  DTS:VersionBuild="57"
+  DTS:VersionGUID="{D4B832B5-7D1C-418C-932E-B6E6445E379A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Excel Connection Manager]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{A57DF30B-7D2B-4C56-A3C7-FBE6FE67D755}"
+      DTS:ObjectName="Excel Connection Manager">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\imt577user\OneDrive - UW\Desktop\Target Data - Product.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[ML-RefVm-765087.DestinationSystem.sa 1]"
       DTS:CreationName="OLEDB"
@@ -27,7 +37,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAkMowcjfnB+ai91Wq3gKRF0oQOxKZNlIydq09ZFj2VhwAAAAAOgAAAAAIAACAAAACGYVOvJK1wL2O6HazLb6GIafjrNQ5c7o2+bypA+x6jzzAAAABu7jx/q/b/9J5ZOO5JwUo014xqyoXDBsS8dntqRULzn9wE+shteaEmO0buJ0ewpq1AAAAAasGG11052Lu5whzPHPBb/U55OhDKYb/6LUzz9EYfxxgqADS79rIsmQ7H7brgnp31M0y8eFagZ5rPx2xbgNRaaA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAKgY1N98FrEeLUScm4RBOxWYk0b78virkQ5i+GWHUzBQAAAAAOgAAAAAIAACAAAAAFVZV5tuVtDZxBzVGfphq++5dCD1PCp+s/7wStxfRy6jAAAADi08rhdm0vo98vTbXTAqkWq8veCpYj/0mR1qkt9rSXSSbiWfL2sXEazYZKpExZW5ZAAAAAncIOyjRU6g5Mk+wvGDSnpxJ1skSz7VrAPkHMZLyZmrKF0gICukqJPm1NZHzgadZGGDqPFQ67nR65OEe8C3hj/w</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -42,7 +52,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADEh3YpXT1Xn6vkoINesMHSK6POvRlPKXrPCJzM3v14DwAAAAAOgAAAAAIAACAAAADNPKtv4CvYhpvBG6Z5S71/S6bLcYMtkWLgtyJ3x+mdsTAAAABzqN1zIfioMYkTGg8r7NK7QdLjKZdeyPuEjXt4M08GecBufB2q0eieBpp+8Qgyps9AAAAA3meKLup5A9p/F3p3tW0CdDsMvGAuRkdNmqhsTzOazRBtJs0ssdy31kVLjfMrlit35CvryXzMWknj7wNU9wjfQg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAArddLGF7E3yymc0XImLj7vHcgOzdsr+L/9wsMBb6DQhgAAAAAOgAAAAAIAACAAAABiOCf/ABhZ5ybh6dz2FoN04rYQtOezMv0MfDCpC43NzjAAAADrjc2Ta66C6tQ6Juf6X+gIaVY5etsQGOZqy3Hl+B+OG9JTlePP6aYj/Z7JO3KT+ZZAAAAAp5qRssA+grpwyJscN+jXIKShKr6sbWjZuxGfDid1lJKgN2c5DI5DAcFuM4YMc7Y7yglueAF2hI3UFNsFlWssJg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -57,7 +67,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADeOKR0PW6QPOJYfHQG2q/+cKou4qExflNB20URy02jMQAAAAAOgAAAAAIAACAAAABkj1duBtVkauXrGOIDef4DSkDvlA1YFZ9bI7cyPFnHmTAAAADQ1NtpBkW+xE5zU+rc2VTOkRBukG1692Xhx97/nbwUcrgljhD0+gP81+Z7OKCemupAAAAAhBj0BShtZmxWdFOByq8e3uG/sfJ0hya0qteLyyZuDz8ZhIzFkRz1U+X9QQDwlA+qYtoElAsRIa9gdQx2AmLLdA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAABJ/uCJzJqRmZMk10qH7LX2EeI9cVFGKA5yefuQvTSQAAAAAAOgAAAAAIAACAAAADuZaO6Xu9Oje7VjCn4wq0jxt4VBbbk3w0ezozXAvYEhTAAAABh/qsuhgS/FOYeJ4v9Hj5r/6y1GNQ5NaSt8dcuxQZYuIUEHh8BUr1oELRU7TQw8kxAAAAAD0Jkeop372lLxNrYPvbrwFd3oSN2qlazOViWiD10M3RDg9gNbhCgfWfIcVf0eWOP3GUGPZJ/FFI1kYRnoez5dQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -72,7 +82,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADG9Orrhe77T2NeVuOJt1OCRyuhDJGy458WbKjxMU2WagAAAAAOgAAAAAIAACAAAAAvmtEbKxxthtaeUdUJAejfnzf3mMKUzx6LSOPS1U5lFDAAAAComL7cN9znKARb7AOYE7oq5jqpj2VyjlFwfNDL8FCPl0AJlqJS0uV36ehaBi5FIrBAAAAAXGCSI00F8aYJC4EkH+lZ0BGVwoDYWcKVdojkK0yUTCiU23Kk6BpKTTaI1WY+ljNf2a7mGLqRyqR00VGKR4wW6w</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB7tJ++NlxNARK5YJTagEae0KuEGqG3CrN1xt2zl2jsjAAAAAAOgAAAAAIAACAAAAC/Ekhhgm7OuzWOWdKkbcbkowKbJZ5Z8RBY4pfz/aBgzTAAAAD5gd37fwnxG9wE1/V0Y1HxRR1dujeJItM8bDB5N8MUD5ooK54aquhspR81WGjYxyRAAAAAmBekhNEjpSWRYqs/vVCD3Tj4kPh+I3GzPAi5krHkpFEm0P6TXDTgWUXa4Z97IIZFiaAfYA8wAYY1+JIpUtOzvg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -87,7 +97,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAtPJVl1LrAC9CwxwGx4lUYgMMfZjONYXWDXBNee0PbOwAAAAAOgAAAAAIAACAAAABrRpAOQEXJNub5peOVfup6PLS2VQQvIYtG0ZpPcMCrLzAAAACqy6caMlTFYpaPJ7Aqa0iA3JAC6BObrhiwhKxmrDw7GqO6pxRSlzx0VBxdI/it9bxAAAAA2qcB5X0Ql+nYk60qjQ3SdAitUsZ3Zf+vUzkA3qxHYhU4SPUjyij3gEfzvzQsrjJ2ys99ItZSTOJiEGhDYiLA/Q</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADq3iDM9c9G46Qyep5+PQvR3lp/pPycA92/yDSbEr13/gAAAAAOgAAAAAIAACAAAABn8Gtxd7t8kpZfBP10GMhDxPAV96htc2KZrkL2sWbVdzAAAAACJ2TGiUF8KAITyEAh/107KsvzCBzqFEXlIgeMclhaKob4bqmguhKWluezgB/CVWhAAAAAcnpMQudFR8zPo56DAikIMxWwZ+73ECRskxQ88xjDIlNECM68KAhWyrfiHPiCKUKE2x4bema1VLoxBuKCXsgyaw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -206,6 +216,193 @@
   </DTS:ConnectionManagers>
   <DTS:Variables />
   <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\AllDateDimTasks"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{F3D9A7AD-D31A-4A8C-9BED-6D822E7A6BE5}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="AllDateDimTasks"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{111F60C2-AF2E-408F-8FF4-245C9C7DFD4B}"
+          SQLTask:SqlStatementSource="IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'DimDate')&#xA;BEGIN&#xA;&#x9;DROP TABLE dbo.DimDate;&#xA;END&#xA;GO&#xA;&#xA;CREATE TABLE dbo.DimDate&#xA;(&#xA;DimDateID INT IDENTITY(1,1) NOT NULL CONSTRAINT PK_DimDate PRIMARY KEY,&#xA;FullDate [date] NOT NULL,&#xA;DayNumberOfWeek [tinyint] NOT NULL,&#xA;DayNameOfWeek [varchar] (9) NOT NULL,&#xA;DayNumberOfMonth [tinyint] NOT NULL,&#xA;DayNumberOfYear [int] NOT NULL,&#xA;WeekdayFlag [int] NOT NULL,&#xA;WeekNumberOfYear [tinyint] NOT NULL,&#xA;[MonthName] [varchar](9) NOT NULL,&#xA;MonthNumberOfYear [tinyint] NOT NULL,&#xA;CalendarQuarter [tinyint] NOT NULL,&#xA;CalendarYear [int] NOT NULL,&#xA;CalendarSemester [tinyint] NOT NULL,&#xA;CreatedDate DATETIME NOT NULL&#xA;,CreatedBy NVARCHAR(255) NOT NULL&#xA;,ModifiedDate DATETIME NULL&#xA;,ModifiedBy NVARCHAR(255) NULL&#xA;);&#xA;GO&#xA;&#xA;-- =========================================================================&#xA;-- Create Stored Proceudre InsDimDateyearly to load one year of data&#xA;-- =========================================================================&#xA;&#xA;IF EXISTS (SELECT name FROM sys.procedures WHERE name = 'InsDimDateYearly')&#xA;BEGIN&#xA;&#x9;DROP PROCEDURE dbo.InsDimDateYearly;&#xA;END&#xA;GO&#xA;&#xA;CREATE PROC [dbo].[InsDimDateYearly]&#xA;( &#xA;&#x9;@Year INT=NULL&#xA;)&#xA;AS&#xA;SET NOCOUNT ON;&#xA;&#xA;DECLARE @Date DATE, @FirstDate Date, @LastDate Date;&#xA;&#xA;SELECT @Year=COALESCE(@Year,YEAR(DATEADD(d,1,MAX(DimDateID)))) FROM dbo.DimDate;&#xA;&#xA;SET @FirstDate=DATEFROMPARTS(COALESCE(@Year,YEAR(GETDATE())-1), 01, 01); -- First Day of the Year&#xA;SET @LastDate=DATEFROMPARTS(COALESCE(@Year,YEAR(GETDATE())-1), 12, 31); -- Last Day of the Year&#xA;&#xA;SET @Date=@FirstDate;&#xA;-- create CTE with all dates needed for load&#xA;;WITH DateCTE AS&#xA;(&#xA;SELECT @FirstDate AS StartDate -- earliest date to load in table&#xA;UNION ALL&#xA;SELECT DATEADD(day, 1, StartDate)&#xA;FROM DateCTE -- recursively select the date + 1 over and over&#xA;WHERE DATEADD(day, 1, StartDate) &lt;= @LastDate -- last date to load in table&#xA;)&#xA;&#xA;-- load date dimension table with all dates&#xA;INSERT INTO dbo.DimDate &#xA;&#x9;(&#xA;&#x9;FullDate &#xA;&#x9;,DayNumberOfWeek &#xA;&#x9;,DayNameOfWeek &#xA;&#x9;,DayNumberOfMonth &#xA;&#x9;,DayNumberOfYear &#xA;&#x9;,WeekdayFlag&#xA;&#x9;,WeekNumberOfYear &#xA;&#x9;,[MonthName] &#xA;&#x9;,MonthNumberOfYear &#xA;&#x9;,CalendarQuarter &#xA;&#x9;,CalendarYear &#xA;&#x9;,CalendarSemester&#xA;&#x9;,CreatedDate&#xA;&#x9;,CreatedBy&#xA;&#x9;,ModifiedDate&#xA;&#x9;,ModifiedBy &#xA;&#x9;)&#xA;SELECT &#xA;&#x9; CAST(StartDate AS DATE) AS FullDate&#xA;&#x9;,DATEPART(dw, StartDate) AS DayNumberOfWeek&#xA;&#x9;,DATENAME(dw, StartDate) AS DayNameOfWeek&#xA;&#x9;,DAY(StartDate) AS DayNumberOfMonth&#xA;&#x9;,DATEPART(dy, StartDate) AS DayNumberOfYear&#xA;&#x9;,CASE DATENAME(dw, StartDate) WHEN 'Saturday' THEN 0 WHEN 'Sunday' THEN 0 ELSE 1 END AS WeekdayFlag&#xA;&#x9;,DATEPART(wk, StartDate) AS WeekNumberOfYear&#xA;&#x9;,DATENAME(mm, StartDate) AS [MonthName]&#xA;&#x9;,MONTH(StartDate) AS MonthNumberOfYear&#xA;&#x9;,DATEPART(qq, StartDate) AS CalendarQuarter&#xA;&#x9;,YEAR(StartDate) AS CalendarYear&#xA;&#x9;,(CASE WHEN MONTH(StartDate)&gt;=1 AND MONTH(StartDate) &lt;=6 THEN 1 ELSE 2 END) AS CalendarSemester&#xA;&#x9;,DATEADD(dd,DATEDIFF(dd,GETDATE(), '2013-01-01'),GETDATE()) AS CreatedDate&#xA;&#x9;,'company\SQLServerServiceAccount' AS CreatedBy&#xA;&#x9;,NULL AS ModifiedDate&#xA;&#x9;,NULL AS ModifiedBy&#xA;FROM DateCTE&#xA;OPTION (MAXRECURSION 0);-- prevents infinate loop from running more than once&#xA;GO&#xA;&#xA;-- ========================================================================&#xA;-- Execute the procedure for 2013 and 2014 (those are the years you need)&#xA;-- ========================================================================&#xA;EXEC InsDimDateYearly 2013&#xA;&#xA;EXEC InsDimDateYearly 2014&#xA;&#xA;-- ========================================================================&#xA;-- Insert unknown to date task&#xA;-- ========================================================================&#xA;SET IDENTITY_INSERT [DestinationSystem].[dbo].[DimDate] ON;&#xA;&#xA;INSERT INTO [DestinationSystem].[dbo].[DimDate]&#xA;(&#xA;       [DimDateID]&#xA;      ,[FullDate]&#xA;      ,[DayNumberOfWeek]&#xA;      ,[DayNameOfWeek]&#xA;      ,[DayNumberOfMonth]&#xA;      ,[DayNumberOfYear]&#xA;      ,[WeekdayFlag]&#xA;      ,[WeekNumberOfYear]&#xA;      ,[MonthName]&#xA;      ,[MonthNumberOfYear]&#xA;      ,[CalendarQuarter]&#xA;      ,[CalendarYear]&#xA;      ,[CalendarSemester]&#xA;      ,[CreatedDate]&#xA;      ,[CreatedBy]&#xA;      ,[ModifiedDate]&#xA;      ,[ModifiedBy]&#xA;)&#xA;VALUES&#xA;( &#xA;-1&#xA;,'1990-01-01'&#xA;,255&#xA;,'Unknown'&#xA;,255&#xA;,255&#xA;,255&#xA;,255&#xA;,'Unknown'&#xA;,255&#xA;,255&#xA;,255&#xA;,255&#xA;,'1990-01-01'&#xA;,'Unknown'&#xA;,NULL&#xA;,NULL&#xA;);&#xA;-- Turn the identity insert to OFF so new rows auto assign identities&#xA;SET IDENTITY_INSERT dbo.dimChannel OFF;&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Create Sales Fact"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{62BE6D7E-27B7-4E58-ADCC-9FBB765EF82E}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Create Sales Fact"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{111F60C2-AF2E-408F-8FF4-245C9C7DFD4B}"
+          SQLTask:SqlStatementSource="&#xA;IF NOT EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factSalesActual')&#xA;BEGIN&#xA;&#x9;CREATE TABLE dbo.factSalesActual&#xA;&#x9;(&#xA;&#x9;factSalesActualID INT IDENTITY(1,1) CONSTRAINT PK_factSalesActual PRIMARY KEY CLUSTERED NOT NULL, -- SurrogateKey&#xA;&#x9;dimProductID INT,&#xA;&#x9;dimStoreID INT,&#xA;&#x9;dimRellerID INT, &#xA;&#x9;dimCustomerID INT,&#xA;&#x9;dimChannelID INT,&#xA;&#x9;DimDateID INT,&#xA;&#x9;dimLocationID INT,&#xA;&#x9;SalesHeaderID INT,&#xA;&#x9;SalesDetailID INT,&#xA;&#x9;SalesAmount FLOAT,&#xA;&#x9;SalesQuantity INT,&#xA;&#x9;SalesUnitPrice FLOAT,&#xA;&#x9;SalesExtendedCost FLOAT,&#xA;&#x9;SalesTotalProfit FLOAT&#xA;&#x9;);&#xA;END&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\create temp sales fact"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{114084E0-7620-4E90-BB84-D4019C36638A}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="create temp sales fact"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{111F60C2-AF2E-408F-8FF4-245C9C7DFD4B}"
+          SQLTask:SqlStatementSource="USE SourceSystem;&#xA;&#xA;DROP TABLE IF EXISTS [DestinationSystem].[dbo].[stagefactSalesActual]&#xA;GO&#xA;&#xA;SELECT  &#xA;dbo.[SalesDetail].SalesHeaderID,&#xA;&#xA;dbo.[SalesDetail].SalesDetailID,&#xA;&#xA;dbo.Product.ProductID,&#xA;&#xA;NULL as dimProductID,&#xA;&#xA;dbo.Store.StoreID,&#xA;&#xA;NULL as dimStoreID,&#xA;&#xA;dbo.Reseller.ResellerID,&#xA;&#xA;NULL as dimRellerID, &#xA;&#xA;dbo.Customer.CustomerID,&#xA;&#xA;NULL as dimCustomerID,&#xA;&#xA;dbo.Channel.ChannelID,&#xA;&#xA;NULL as dimChannelID,&#xA;&#xA;COALESCE(dbo.store.Address,dbo.Reseller.address,dbo.Customer.address) as address,&#xA;&#xA;NULL as dimLocationID,&#xA;&#xA; dbo.ProductCategory.ProductCategory, &#xA;&#xA; dbo.ProductType.ProductType, &#xA;&#xA; dbo.Product.Product,&#xA;&#xA; dbo.UnitofMeasure.UnitofMeasure,&#xA;&#xA; dbo.SubSegment.SubSegment,&#xA;&#xA; dbo.[SalesHeader].[Date] as SalesDate,&#xA;&#xA; NULL as DimDateID,&#xA;&#xA; dbo.Channel.Channel,&#xA;&#xA; dbo.ChannelCategory.ChannelCategory,&#xA;&#xA; dbo.Reseller.ResellerName,&#xA;&#xA; dbo.Store.StoreNumber,&#xA;&#xA; dbo.[SalesDetail].SalesAmount,&#xA;&#xA; dbo.SalesDetail.SalesQuantity,&#xA; &#xA; dbo.Product.UnitofMeasureID,&#xA;&#xA; dbo.Product.Price as UnitPrice, &#xA;&#xA; dbo.Product.Cost as SalesExtendedCost, &#xA;&#xA; dbo.Product.WholesalePrice,&#xA; &#xA; dbo.SalesDetail.SalesQuantity * (dbo.Product.Price - dbo.Product.Cost) as SalesTotalProfit&#xA;&#xA; INTO [DestinationSystem].[dbo].[stagefactSalesActual]&#xA;&#xA;FROM  dbo.ProductCategory&#xA;&#xA;INNER JOIN  dbo.ProductType  ON  dbo.ProductCategory.ProductCategoryID  =  dbo.ProductType.ProductCategoryID&#xA;&#xA;INNER JOIN  dbo.Product  ON  dbo.ProductType.ProductTypeID  =  dbo.Product.ProductTypeID&#xA;&#xA;INNER JOIN  dbo.UnitofMeasure on dbo.Product.UnitofMeasureID = dbo.UnitofMeasure.UnitofMeasureID&#xA;&#xA;INNER JOIN dbo.[SalesDetail] on dbo.[SalesDetail].ProductID = dbo.Product.ProductID&#xA;&#xA;INNER JOIN dbo.SalesHeader   on  dbo.SalesHeader.SalesHeaderID = dbo.[SalesDetail].SalesHeaderID&#xA;&#xA;INNER JOIN dbo.Channel on dbo.Channel.ChannelID = dbo.SalesHeader.ChannelID&#xA;&#xA;INNER JOIN dbo.ChannelCategory on dbo.ChannelCategory.ChannelCategoryID = dbo.Channel.ChannelCategoryID&#xA;&#xA;LEFT JOIN dbo.Reseller on dbo.SalesHeader.ResellerID = dbo.Reseller.ResellerID&#xA;&#xA;LEFT JOIN dbo.Store on dbo.Store.StoreID = dbo.SalesHeader.StoreID&#xA;&#xA;LEFT JOIN dbo.Customer on dbo.Customer.CustomerID = dbo.SalesHeader.CustomerID&#xA;&#xA;LEFT JOIN dbo.SubSegment on dbo.SubSegment.SubSegmentID = dbo.Customer.SubSegmentID&#xA;&#xA;--LEFT JOIN dbo.Segment on dbo.Segment.SegmentID = dbo.SubSegment.se&#xA;&#xA;--order by ProductID&#xA;&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Create_Dimensional_Table"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{E0D1CBDF-2131-4BC8-A344-FB631607CEFA}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Create_Dimensional_Table"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{111F60C2-AF2E-408F-8FF4-245C9C7DFD4B}"
+          SQLTask:SqlStatementSource="IF NOT EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimChannel')&#xA;BEGIN&#xA;&#x9;CREATE TABLE dbo.dimChannel&#xA;&#x9;(&#xA;&#x9;dimChannelID INT IDENTITY(1,1) CONSTRAINT PK_dimChannel PRIMARY KEY CLUSTERED NOT NULL, -- SurrogateKey&#xA;&#x9;dimSourceChannelID INT NOT NUll, --Natural Key&#xA;&#x9;dimSourceCategoryID INT NOT NUll, --Natural Key&#xA;&#x9;dimChannelCategoryName VARCHAR(50) NOT NULL,&#xA;&#x9;dimChannelName VARCHAR(50) NOT NULL&#xA;&#x9;);&#xA;END&#xA;GO&#xA;&#xA;IF NOT EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimProduct')&#xA;BEGIN&#xA;&#x9;CREATE TABLE dbo.dimProduct&#xA;&#x9;(&#xA;&#x9;dimProductID INT IDENTITY(1,1) CONSTRAINT PK_dimProduct PRIMARY KEY CLUSTERED NOT NULL, -- SurrogateKey&#xA;&#x9;dimSourceProductID INT NOT NUll, --Natural Key&#xA;&#x9;dimSourceProductIDTypeID INT NOT NUll, --Natural Key&#xA;&#x9;dimSourceProductCategoryID INT NOT NULL,&#xA;&#x9;dimSourceProductName VARCHAR(150) NOT NULL,&#xA;&#x9;dimSourceProductType VARCHAR(50) NOT NULL,&#xA;&#x9;dimSourceProductCategory VARCHAR(50) NOT NULL,&#xA;&#x9;dimSourceProductRetailPrice float NOT NULL,&#xA;&#x9;dimSourceProductWholeSalePrice float NOT NULL,&#xA;&#x9;dimSourceProductCost float NOT NULL,&#xA;&#x9;dimSourceRetailProfit float,&#xA;&#x9;dimSourceProductWholesaleUnitProfit float,&#xA;&#x9;dimSourceProductProfitMarginUnitPercent float&#xA;&#x9;);&#xA;END&#xA;GO&#xA;&#xA;IF NOT EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimStore')&#xA;BEGIN&#xA;&#x9;CREATE TABLE dbo.dimStore&#xA;&#x9;(&#xA;&#x9;dimStoreID INT IDENTITY(1,1) CONSTRAINT PK_dimStore PRIMARY KEY CLUSTERED NOT NULL, -- SurrogateKey&#xA;&#x9;dimLocationID INT, &#xA;&#x9;dimSourceStoreID INT NOT NUll, --Natural Key&#xA;&#x9;dimSourceStoreName VARCHAR(150) NOT NULL,&#xA;&#x9;dimSourceStoreNumber INT NOT NULL,&#xA;&#x9;dimSourceStoreManager VARCHAR(50) NOT NULL&#xA;&#x9;);&#xA;END&#xA;GO&#xA;&#xA;&#xA;IF NOT EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimReseller')&#xA;BEGIN&#xA;&#x9;CREATE TABLE dbo.dimReseller&#xA;&#x9;(&#xA;&#x9;dimRellerID INT IDENTITY(1,1) CONSTRAINT PK_dimReseller PRIMARY KEY CLUSTERED NOT NULL, -- SurrogateKey&#xA;&#x9;dimLocationID INT, &#xA;&#x9;dimSourceResellerID VARCHAR(150) NOT NULL,&#xA;&#x9;dimSourceResellerName VARCHAR(150) NOT NULL,&#xA;&#x9;dimSourceConctactName VARCHAR(150) NOT NULL,&#xA;&#x9;dimSourcePhoneNumber VARCHAR(50) NOT NULL,&#xA;&#x9;dimSourceEmail VARCHAR(150) NOT NULL&#xA;&#x9;);&#xA;END&#xA;GO&#xA;&#xA;IF NOT EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimCustomer')&#xA;BEGIN&#xA;&#x9;CREATE TABLE dbo.dimCustomer&#xA;&#x9;(&#xA;&#x9;dimCustomerID INT IDENTITY(1,1) CONSTRAINT PK_dimCustomer PRIMARY KEY CLUSTERED NOT NULL, -- SurrogateKey&#xA;&#x9;dimLocationID INT, &#xA;&#x9;dimSourceCustomerID VARCHAR(150) NOT NULL,&#xA;&#x9;dimSourceCustomerFullName VARCHAR(150) NOT NULL,&#xA;&#x9;dimSourceCustomerFirstName VARCHAR(150) NOT NULL,&#xA;&#x9;dimSourceCustomerLastName VARCHAR(50) NOT NULL,&#xA;&#x9;dimSourceCustomerGender VARCHAR(10) NOT NULL&#xA;&#x9;);&#xA;END&#xA;GO&#xA;&#xA;IF NOT EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimLocation')&#xA;BEGIN&#xA;&#x9;CREATE TABLE dbo.dimLocation&#xA;&#x9;(&#xA;&#x9;dimLocationID INT IDENTITY(1,1) CONSTRAINT PK_dimLocation PRIMARY KEY CLUSTERED NOT NULL, -- SurrogateKey &#xA;&#x9;dimSourceAddress VARCHAR(150) NOT NULL,&#xA;&#x9;dimSourceCity VARCHAR(150) NOT NULL,&#xA;&#x9;dimSourcePostalCode INT NOT NULL,&#xA;&#x9;dimSourceState_Province VARCHAR(50) NOT NULL,&#xA;&#x9;dimSourceCountry VARCHAR(100) NOT NULL&#xA;&#x9;);&#xA;END&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Delete Sales Fact"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{E8C56063-C9E7-44B8-87F3-9338AC804C3E}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Delete Sales Fact"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{111F60C2-AF2E-408F-8FF4-245C9C7DFD4B}"
+          SQLTask:SqlStatementSource="IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factSalesActual')&#xA;BEGIN&#xA;&#x9;TRUNCATE TABLE dbo.factSalesActual;&#xA;END&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Delete_DimDimensional_Table"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{643E6240-5E72-4883-BBE6-1571BFBBC47B}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Delete_DimDimensional_Table"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{111F60C2-AF2E-408F-8FF4-245C9C7DFD4B}"
+          SQLTask:SqlStatementSource="IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimChannel')&#xA;BEGIN&#xA;&#x9;TRUNCATE TABLE dbo.dimChannel;&#xA;END&#xA;GO&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimProduct')&#xA;BEGIN&#xA;&#x9;TRUNCATE TABLE dbo.dimProduct;&#xA;END&#xA;GO&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimStore')&#xA;BEGIN&#xA;&#x9;TRUNCATE TABLE dbo.dimStore;&#xA;END&#xA;GO&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimReseller')&#xA;BEGIN&#xA;&#x9;TRUNCATE TABLE dbo.dimReseller;&#xA;END&#xA;GO&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimCustomer')&#xA;BEGIN&#xA;&#x9;TRUNCATE TABLE dbo.dimCustomer;&#xA;END&#xA;GO&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimLocation')&#xA;BEGIN&#xA;&#x9;TRUNCATE TABLE dbo.dimLocation;&#xA;END&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\load product target"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{76A9E8AC-C49A-4108-83E7-4EDE5039F6C3}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="load product target"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{111F60C2-AF2E-408F-8FF4-245C9C7DFD4B}"
+          SQLTask:SqlStatementSource="IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factProductSalesTarget')&#xA;BEGIN&#xA;&#x9;TRUNCATE TABLE dbo.factProductSalesTarget;&#xA;END&#xA;GO&#xA;&#xA;--create product sales target fact&#xA;&#xA;IF NOT EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factProductSalesTarget')&#xA;BEGIN&#xA;&#x9;CREATE TABLE dbo.factProductSalesTarget&#xA;&#x9;(&#xA;&#x9;factSalesTargetlID INT IDENTITY(1,1) CONSTRAINT PK_ProductSalesTarget PRIMARY KEY CLUSTERED NOT NULL, -- SurrogateKey&#xA;&#x9;dimProductID INT,&#xA;&#x9;DimTargetDateID INT,&#xA;&#x9;ProductTargetSalesQuantity FLOAT&#xA;&#x9;);&#xA;END&#xA;GO&#xA;&#xA;-- insert data&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factProductSalesTarget')&#xA;BEGIN&#xA;&#x9;&#xA;&#x9;INSERT INTO [DestinationSystem].[dbo].[factProductSalesTarget]&#xA;&#x9;(&#xA;&#x9;dimProductID,&#xA;&#x9;DimTargetDateID,&#xA;&#x9;ProductTargetSalesQuantity&#xA;&#x9;)&#xA;&#x9;SELECT [ProductID] as dimProductID&#xA;&#x9;,DimDateID as DimTargetDateID&#xA;&#x9;,(case when ISNUMERIC([YEAR]) = 0 then SUBSTRING([ SalesQuantityTarget ],6,100) else [ SalesQuantityTarget ] end)/365 as ProductTargetSalesQuantity&#xA;&#x9;FROM [DestinationSystem].[dbo].[StageProductTarget]&#xA;&#x9;INNER JOIN [dbo].[DimDate]&#xA;&#x9;ON (case when ISNUMERIC([YEAR]) = 0 then LEFT([ SalesQuantityTarget ],4) else [Year] end) = datepart(year,[dbo].[DimDate].FullDate)&#xA;&#x9;&#xA;END&#xA;GO " xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\load src target"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{551121D1-A9E1-4E9F-B3A1-63BB8F15BC71}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="load src target"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{111F60C2-AF2E-408F-8FF4-245C9C7DFD4B}"
+          SQLTask:SqlStatementSource="IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factSRCSalesTarget')&#xA;BEGIN&#xA;&#x9;TRUNCATE TABLE dbo.factSRCSalesTarget;&#xA;END&#xA;GO&#xA;&#xA;--create product sales target fact&#xA;&#xA;IF NOT EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factSRCSalesTarget')&#xA;BEGIN&#xA;&#x9;CREATE TABLE dbo.factSRCSalesTarget&#xA;&#x9;(&#xA;&#x9;factSRCSalesTargetID INT IDENTITY(1,1) CONSTRAINT PK_factSRCSalesTarget PRIMARY KEY CLUSTERED NOT NULL, -- SurrogateKey&#xA;&#x9;dimStoreID INT,&#xA;&#x9;dimResellerID INT,&#xA;&#x9;dimChannelID INT,&#xA;&#x9;DimTargetDateID INT,&#xA;&#x9;SalesTargetAmount FLOAT&#xA;&#x9;);&#xA;END&#xA;GO&#xA;&#xA;-- insert data&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factSRCSalesTarget')&#xA;BEGIN&#xA;&#x9;&#xA;&#x9;INSERT INTO [DestinationSystem].[dbo].[factSRCSalesTarget]&#xA;&#x9;(&#xA;&#x9;dimStoreID,&#xA;&#x9;dimResellerID,&#xA;&#x9;dimChannelID,&#xA;&#x9;DimTargetDateID,&#xA;&#x9;SalesTargetAmount&#xA;&#x9;)&#xA;&#x9;SELECT &#xA;&#x9;  dimStoreID&#xA;&#x9;  ,dimRellerID as dimResellerID&#xA;&#x9;  ,dimChannelID&#xA;&#x9;  ,DimDateID as DimTargetDateID&#xA;&#x9;  ,[ TargetSalesAmount ]/365 as SalesTargetAmount&#xA;&#x9;  FROM [DestinationSystem].[dbo].[StageStoreResellChannelTarget]&#xA;&#x9;  LEFT JOIN [DestinationSystem].[dbo].[dimReseller]&#xA;&#x9;  ON [dbo].[StageStoreResellChannelTarget].TargetName &#xA;&#x9;  = (case when [dbo].[dimReseller].dimSourceResellerName = 'Mississipi Distributors' then 'Mississippi Distributors' else [dbo].[dimReseller].dimSourceResellerName end)&#xA;&#x9;  LEFT JOIN [DestinationSystem].[dbo].[dimStore]&#xA;&#x9;  on [dbo].[StageStoreResellChannelTarget].TargetName = concat('Store Number ',[dbo].[dimStore].dimSourceStoreNumber)&#xA;&#x9;  LEFT JOIN [DestinationSystem].[dbo].dimChannel&#xA;&#x9;  ON [dbo].[StageStoreResellChannelTarget].ChannelName = replace(dbo.dimChannel.dimChannelName,'-','')&#xA;&#x9;  INNER JOIN [dbo].[DimDate]&#xA;&#x9;  ON [Year] = datepart(year,[dbo].[DimDate].FullDate)&#xA;&#x9;&#xA;END&#xA;GO &#xA;&#xA;--update null to -1 &#xA;UPDATE [dbo].[factSRCSalesTarget]&#xA;SET dimStoreID = (CASE WHEN dimStoreID is NULL then -1 else dimStoreID end), &#xA; dimResellerID = (CASE WHEN dimResellerID is NULL then -1 else dimResellerID end), &#xA; dimChannelID = (CASE WHEN dimChannelID is NULL then -1 else dimChannelID end)" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Load temp to Sales Fact"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{14A960F2-595F-469A-A0CD-9F8F7E6382DC}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Load temp to Sales Fact"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{111F60C2-AF2E-408F-8FF4-245C9C7DFD4B}"
+          SQLTask:SqlStatementSource="IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factSalesActual')&#xA;BEGIN&#xA;&#x9;&#xA;&#x9;INSERT INTO [DestinationSystem].[dbo].[factSalesActual]&#xA;&#x9;(&#xA;&#x9;   [dimProductID]&#xA;      ,[dimStoreID]&#xA;      ,[dimRellerID]&#xA;      ,[dimCustomerID]&#xA;      ,[dimChannelID]&#xA;      ,[DimDateID]&#xA;      ,[dimLocationID]&#xA;      ,[SalesHeaderID]&#xA;      ,[SalesDetailID]&#xA;      ,[SalesAmount]&#xA;      ,[SalesQuantity]&#xA;      ,[SalesUnitPrice]&#xA;      ,[SalesExtendedCost]&#xA;      ,[SalesTotalProfit]&#xA;&#x9;)&#xA;&#x9;SELECT [dimProductID]&#xA;&#x9;&#x9;  ,[dimStoreID]&#xA;&#x9;&#x9;  ,[dimRellerID]&#xA;&#x9;&#x9;  ,[dimCustomerID]&#xA;&#x9;&#x9;  ,[dimChannelID]&#xA;&#x9;&#x9;  ,[DimDateID]&#xA;&#x9;&#x9;  ,[dimLocationID]&#xA;&#x9;&#x9;  ,[SalesHeaderID]&#xA;          ,[SalesDetailID]&#xA;&#x9;&#x9;  ,[SalesAmount]&#xA;&#x9;&#x9;  ,[SalesQuantity]&#xA;&#x9;&#x9;  ,[UnitPrice] as SalesUnitPrice&#xA;&#x9;&#x9;  ,[SalesExtendedCost]&#xA;&#x9;&#x9;  ,[SalesTotalProfit]&#xA;&#x9;  FROM [DestinationSystem].[dbo].[stagefactSalesActual]&#xA;END&#xA;GO " xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Load_AllDIml_Data"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{B585F0C4-6C25-42CA-AF2D-33350F2DD91B}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Load_AllDIml_Data"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{111F60C2-AF2E-408F-8FF4-245C9C7DFD4B}"
+          SQLTask:SqlStatementSource="IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimChannel')&#xA;BEGIN&#xA;&#x9;-- ====================================&#xA;&#x9;-- Load dimChannel table&#xA;&#x9;-- ====================================&#xA;&#xA;&#x9;INSERT INTO dbo.dimChannel&#xA;&#x9;(&#xA;&#x9;dimSourceChannelID&#xA;&#x9;,dimSourceCategoryID&#xA;&#x9;,dimChannelCategoryName&#xA;&#x9;,dimChannelName&#xA;&#x9;)&#xA;&#x9;SELECT &#xA;&#x9;dbo.StageChannel.ChannelID AS dimSourceChannelID&#xA;&#x9;,dbo.StageChannel.ChannelCategoryID AS dimSourceChannelCategory&#xA;&#x9;,dbo.StageChannelCategory.ChannelCategory AS dimCategoryName&#xA;&#x9;,dbo.StageChannel.Channel AS dimChannelName&#xA;&#xA;&#x9;FROM StageChannel&#xA;&#x9;INNER JOIN StageChannelCategory&#xA;&#x9;ON StageChannel.ChannelCategoryID = StageChannelCategory.ChannelCategoryID;&#xA;END&#xA;GO &#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimProduct')&#xA;BEGIN&#xA;&#xA;&#x9;INSERT INTO dbo.dimProduct&#xA;&#x9;(&#xA;&#x9;dimSourceProductID,&#xA;&#x9;dimSourceProductIDTypeID,&#xA;&#x9;dimSourceProductCategoryID,&#xA;&#x9;dimSourceProductName,&#xA;&#x9;dimSourceProductType,&#xA;&#x9;dimSourceProductCategory,&#xA;&#x9;dimSourceProductRetailPrice,&#xA;&#x9;dimSourceProductWholeSalePrice,&#xA;&#x9;dimSourceProductCost,&#xA;&#x9;dimSourceRetailProfit,&#xA;&#x9;dimSourceProductWholesaleUnitProfit,&#xA;&#x9;dimSourceProductProfitMarginUnitPercent&#xA;&#x9;)&#xA;&#x9;SELECT [dbo].[StageProduct].[ProductID] as dimSourceProductID,&#xA;&#x9;[dbo].[StageProduct].[ProductTypeID] as dimSourceProductIDTypeID,&#xA;&#x9;[dbo].[StageProductCategory].[ProductCategoryID] as dimSourceProductCategoryID,&#xA;&#x9;[dbo].[StageProduct].[Product] as dimSourceProductName,&#xA;&#x9;[dbo].[StageProductType].ProductType as dimSourceProductType ,&#xA;&#x9;[dbo].[StageProductCategory].[ProductCategory] as dimSourceProductCategory,&#xA;&#x9;[dbo].[StageProduct].[Price] as dimSourceProductRetailPrice,&#xA;&#x9;[dbo].[StageProduct].WholesalePrice as dimSourceProductWholeSalePrice,&#xA;&#x9;[dbo].[StageProduct].[Cost] as dimSourceProductCost,&#xA;&#x9;[dbo].[StageProduct].[Price] - [dbo].[StageProduct].[Cost] as dimSourceRetailProfit,&#xA;&#x9;[dbo].[StageProduct].WholesalePrice - [dbo].[StageProduct].[Cost] as dimSourceProductWholesaleUnitProfit,&#xA;&#x9;round(([dbo].[StageProduct].[Price] - [dbo].[StageProduct].[Cost])/[dbo].[StageProduct].[Price],2) as dimSourceProductProfitMarginUnitPercent&#xA;&#x9;from [dbo].[StageProduct]&#xA;&#x9;inner join [dbo].[StageProductType]&#xA;&#x9;on [dbo].[StageProduct].ProductTypeID = [dbo].[StageProductType].ProductTypeID&#xA;&#x9;inner join [dbo].[StageProductCategory]&#xA;&#x9;on [dbo].[StageProductType].ProductCategoryID = [dbo].[StageProductCategory].ProductCategoryID;&#xA;END&#xA;GO &#xA;&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimStore')&#xA;BEGIN&#xA;&#xA;&#x9;INSERT INTO dbo.dimStore&#xA;&#x9;(&#xA;     dimSourceStoreID&#xA;     ,dimSourceStoreName&#xA;     ,dimSourceStoreNumber&#xA;     ,dimSourceStoreManager&#xA;&#x9;)&#xA;&#x9;SELECT  [StoreID] as dimSourceStoreID&#xA;      ,[StoreNumber] as dimSourceStoreName&#xA;      ,[StoreNumber] as dimSourceStoreNumber&#xA;      ,StoreManager as dimSourceStoreManager&#xA;    FROM [DestinationSystem].[dbo].[StageStore];&#xA;END&#xA;GO &#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimReseller')&#xA;BEGIN&#xA;&#xA;&#x9;INSERT INTO dbo.dimReseller&#xA;&#x9;(&#xA;       [dimSourceResellerID]&#xA;      ,[dimSourceResellerName]&#xA;      ,[dimSourceConctactName]&#xA;      ,[dimSourcePhoneNumber]&#xA;      ,[dimSourceEmail]&#xA;&#x9;)&#xA;&#x9;SELECT [ResellerID] as dimSourceResellerID&#xA;&#x9;      ,[ResellerName] as dimSourceResellerName&#xA;          ,[Contact] as dimSourceConctactName&#xA;&#x9;      ,[PhoneNumber] as dimSourcePhoneNumber&#xA;          ,[EmailAddress] as dimSourceEmail&#xA;   FROM [DestinationSystem].[dbo].[StageReseller];&#xA;END&#xA;GO &#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimCustomer')&#xA;BEGIN&#xA;&#xA;&#x9;INSERT INTO dbo.dimCustomer&#xA;&#x9;(&#xA;       [dimSourceCustomerID]&#xA;      ,[dimSourceCustomerFullName]&#xA;      ,[dimSourceCustomerFirstName]&#xA;      ,[dimSourceCustomerLastName]&#xA;      ,[dimSourceCustomerGender]&#xA;&#x9;)&#xA;&#x9;SELECT [CustomerID] as dimSourceCustomerID&#xA;      ,concat(FirstName,' ',LastName) as dimSourceCustomerFullName&#xA;      ,[FirstName] as dimSourceCustomerFirstName&#xA;      ,[LastName] as dimSourceCustomerLastName&#xA;      ,[Gender] as dimSourceCustomerGender&#xA;  FROM [DestinationSystem].[dbo].[StageCustomer];&#xA;END&#xA;GO &#xA;&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimLocation')&#xA;BEGIN&#xA;&#xA;&#x9;INSERT INTO dbo.dimLocation&#xA;&#x9;(&#xA;       [dimSourceAddress]&#xA;      ,[dimSourceCity]&#xA;      ,[dimSourcePostalCode]&#xA;      ,[dimSourceState_Province]&#xA;      ,[dimSourceCountry]&#xA;&#x9;)&#xA;&#x9;SELECT [Address] as dimSourceAddress&#xA;&#x9;&#x9;  ,[City] as dimSourceCity&#xA;&#x9;&#x9;  ,[PostalCode] as dimSourcePostalCode&#xA;&#x9;&#x9;  ,[StateProvince] as dimSourceState_Province&#xA;&#x9;&#x9;  ,[Country] as dimSourceCountry&#xA;&#x9;  FROM [DestinationSystem].[dbo].[StageReseller]&#xA;&#x9;  union&#xA;&#x9;  SELECT [Address]&#xA;&#x9;&#x9;  ,[City]&#xA;&#x9;&#x9;  ,[PostalCode]&#xA;&#x9;&#x9;  ,[StateProvince]&#xA;&#x9;&#x9;  ,[Country]&#xA;&#x9;  FROM [DestinationSystem].[dbo].[StageStore]&#xA;&#x9;  union&#xA;&#x9;  SELECT [Address]&#xA;&#x9;&#x9;  ,[City]&#xA;&#x9;&#x9;  ,[PostalCode]&#xA;&#x9;&#x9;  ,[StateProvince]&#xA;&#x9;&#x9;  ,[Country]&#xA;&#x9;  FROM [DestinationSystem].[dbo].[StageCustomer];&#xA;END&#xA;GO &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Load_AllDimUnknown_Data"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{44E2FD2F-51DF-4D15-9FBF-09621967BC1C}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Load_AllDimUnknown_Data"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{111F60C2-AF2E-408F-8FF4-245C9C7DFD4B}"
+          SQLTask:SqlStatementSource="SET IDENTITY_INSERT dbo.dimChannel ON;&#xA;&#xA;INSERT INTO dbo.dimChannel&#xA;(&#xA;dimChannelID&#xA;,dimSourceChannelID&#xA;,dimSourceCategoryID&#xA;,dimChannelCategoryName&#xA;,dimChannelName&#xA;)&#xA;VALUES&#xA;( &#xA;-1&#xA;,-1&#xA;,-1 &#xA;,'Unknown'&#xA;,'Unknown'&#xA;);&#xA;-- Turn the identity insert to OFF so new rows auto assign identities&#xA;SET IDENTITY_INSERT dbo.dimChannel OFF;&#xA;GO&#xA;&#xA;SET IDENTITY_INSERT dbo.dimCustomer ON;&#xA;&#xA;INSERT INTO dbo.dimCustomer&#xA;(&#xA;       [dimCustomerID]&#xA;      ,[dimLocationID]&#xA;      ,[dimSourceCustomerID]&#xA;      ,[dimSourceCustomerFullName]&#xA;      ,[dimSourceCustomerFirstName]&#xA;      ,[dimSourceCustomerLastName]&#xA;      ,[dimSourceCustomerGender]&#xA;)&#xA;VALUES&#xA;( &#xA;-1&#xA;,-1&#xA;,-1 &#xA;,'Unknown'&#xA;,'Unknown'&#xA;,'Unknown'&#xA;,'Unknown'&#xA;);&#xA;-- Turn the identity insert to OFF so new rows auto assign identities&#xA;SET IDENTITY_INSERT dbo.dimCustomer OFF;&#xA;GO&#xA;&#xA;SET IDENTITY_INSERT dbo.dimLocation ON;&#xA;&#xA;INSERT INTO dbo.dimLocation&#xA;(&#xA;       [dimLocationID]&#xA;      ,[dimSourceAddress]&#xA;      ,[dimSourceCity]&#xA;      ,[dimSourcePostalCode]&#xA;      ,[dimSourceState_Province]&#xA;      ,[dimSourceCountry]&#xA;)&#xA;VALUES&#xA;( &#xA;-1 &#xA;,'Unknown'&#xA;,'Unknown'&#xA;,-1&#xA;,'Unknown'&#xA;,'Unknown'&#xA;);&#xA;-- Turn the identity insert to OFF so new rows auto assign identities&#xA;SET IDENTITY_INSERT dbo.dimLocation OFF;&#xA;GO&#xA;&#xA;SET IDENTITY_INSERT dbo.dimProduct ON;&#xA;&#xA;INSERT INTO dbo.dimProduct&#xA;(&#xA;       [dimProductID]&#xA;      ,[dimSourceProductID]&#xA;      ,[dimSourceProductIDTypeID]&#xA;      ,[dimSourceProductCategoryID]&#xA;      ,[dimSourceProductName]&#xA;      ,[dimSourceProductType]&#xA;      ,[dimSourceProductCategory]&#xA;      ,[dimSourceProductRetailPrice]&#xA;      ,[dimSourceProductWholeSalePrice]&#xA;      ,[dimSourceProductCost]&#xA;      ,[dimSourceRetailProfit]&#xA;      ,[dimSourceProductWholesaleUnitProfit]&#xA;      ,[dimSourceProductProfitMarginUnitPercent]&#xA;)&#xA;VALUES&#xA;( &#xA;-1&#xA;,-1&#xA;,-1&#xA;,-1&#xA;,'Unknown'&#xA;,'Unknown'&#xA;,'Unknown'&#xA;,-1&#xA;,-1&#xA;,-1&#xA;,-1&#xA;,-1&#xA;,-1&#xA;);&#xA;-- Turn the identity insert to OFF so new rows auto assign identities&#xA;SET IDENTITY_INSERT dbo.dimProduct OFF;&#xA;GO&#xA;&#xA;SET IDENTITY_INSERT dbo.dimReseller ON;&#xA;&#xA;INSERT INTO dbo.dimReseller&#xA;(&#xA;       [dimRellerID]&#xA;      ,[dimLocationID]&#xA;      ,[dimSourceResellerID]&#xA;      ,[dimSourceResellerName]&#xA;      ,[dimSourceConctactName]&#xA;      ,[dimSourcePhoneNumber]&#xA;      ,[dimSourceEmail]&#xA;)&#xA;VALUES&#xA;( &#xA;-1&#xA;,-1&#xA;,'Unknown'&#xA;,'Unknown'&#xA;,'Unknown'&#xA;,'Unknown'&#xA;,'Unknown'&#xA;&#xA;);&#xA;-- Turn the identity insert to OFF so new rows auto assign identities&#xA;SET IDENTITY_INSERT dbo.dimReseller OFF;&#xA;GO&#xA;&#xA;SET IDENTITY_INSERT dbo.dimStore ON;&#xA;&#xA;INSERT INTO dbo.dimStore&#xA;(&#xA;      [dimStoreID]&#xA;      ,[dimLocationID]&#xA;      ,[dimSourceStoreID]&#xA;      ,[dimSourceStoreName]&#xA;      ,[dimSourceStoreNumber]&#xA;      ,[dimSourceStoreManager]&#xA;)&#xA;VALUES&#xA;( &#xA;-1&#xA;,-1&#xA;, -1&#xA;,'Unknown'&#xA;,-1&#xA;,'Unknown'&#xA;);&#xA;-- Turn the identity insert to OFF so new rows auto assign identities&#xA;SET IDENTITY_INSERT dbo.dimStore OFF;&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
     <DTS:Executable
       DTS:refId="Package\Stage Channel"
       DTS:CreationName="Microsoft.Pipeline"
@@ -2843,12 +3040,12 @@
           version="1">
           <components>
             <component
-              refId="Package\Stage Product Target\Source Product Target"
+              refId="Package\Stage Product Target\Flat File Source"
               componentClassID="Microsoft.FlatFileSource"
               contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
               description="Flat File Source"
               localeId="1033"
-              name="Source Product Target"
+              name="Flat File Source"
               usesDispositions="true"
               version="1">
               <properties>
@@ -2863,25 +3060,25 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Stage Product Target\Source Product Target.Connections[FlatFileConnection]"
+                  refId="Package\Stage Product Target\Flat File Source.Connections[FlatFileConnection]"
                   connectionManagerID="Package.ConnectionManagers[Source Product Target]"
                   connectionManagerRefId="Package.ConnectionManagers[Source Product Target]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
                 <output
-                  refId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Output]"
+                  refId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Output]"
                   name="Flat File Source Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Output].Columns[ProductID]"
+                      refId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Output].Columns[ProductID]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Output].ExternalColumns[ProductID]"
+                      externalMetadataColumnId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ProductID]"
                       length="50"
-                      lineageId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Output].Columns[ProductID]"
+                      lineageId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Output].Columns[ProductID]"
                       name="ProductID"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -2896,14 +3093,14 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Output].Columns[Product]"
+                      refId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Output].Columns[Product]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Output].ExternalColumns[Product]"
+                      externalMetadataColumnId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Product]"
                       length="50"
-                      lineageId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Output].Columns[Product]"
+                      lineageId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Output].Columns[Product]"
                       name="Product"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -2918,14 +3115,14 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Output].Columns[Year]"
+                      refId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Output].Columns[Year]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Output].ExternalColumns[Year]"
+                      externalMetadataColumnId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Year]"
                       length="50"
-                      lineageId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Output].Columns[Year]"
+                      lineageId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Output].Columns[Year]"
                       name="Year"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -2940,14 +3137,14 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Output].Columns[ SalesQuantityTarget ]"
+                      refId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Output].Columns[ SalesQuantityTarget ]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Output].ExternalColumns[ SalesQuantityTarget ]"
+                      externalMetadataColumnId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ SalesQuantityTarget ]"
                       length="50"
-                      lineageId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Output].Columns[ SalesQuantityTarget ]"
+                      lineageId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Output].Columns[ SalesQuantityTarget ]"
                       name=" SalesQuantityTarget "
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -2965,25 +3162,25 @@
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Output].ExternalColumns[ProductID]"
+                      refId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ProductID]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="ProductID" />
                     <externalMetadataColumn
-                      refId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Output].ExternalColumns[Product]"
+                      refId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Product]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Product" />
                     <externalMetadataColumn
-                      refId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Output].ExternalColumns[Year]"
+                      refId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Year]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Year" />
                     <externalMetadataColumn
-                      refId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Output].ExternalColumns[ SalesQuantityTarget ]"
+                      refId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ SalesQuantityTarget ]"
                       codePage="1252"
                       dataType="str"
                       length="50"
@@ -2991,27 +3188,27 @@
                   </externalMetadataColumns>
                 </output>
                 <output
-                  refId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Error Output]"
+                  refId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Error Output]"
                   isErrorOut="true"
                   name="Flat File Source Error Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      refId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
                       codePage="1252"
                       dataType="text"
                       description="Flat File Source Error Output Column"
-                      lineageId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      lineageId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
                       name="Flat File Source Error Output Column" />
                     <outputColumn
-                      refId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      refId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      refId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -3020,11 +3217,11 @@
               </outputs>
             </component>
             <component
-              refId="Package\Stage Product Target\StageProductTarget"
+              refId="Package\Stage Product Target\OLE DB Destination"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
               description="OLE DB Destination"
-              name="StageProductTarget"
+              name="OLE DB Destination"
               usesDispositions="true"
               version="4">
               <properties>
@@ -3035,7 +3232,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[dbo].[StageProductTarget]</property>
+                  name="OpenRowset">[StageProductTarget]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -3077,7 +3274,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Stage Product Target\StageProductTarget.Connections[OleDbConnection]"
+                  refId="Package\Stage Product Target\OLE DB Destination.Connections[OleDbConnection]"
                   connectionManagerID="{111F60C2-AF2E-408F-8FF4-245C9C7DFD4B}:external"
                   connectionManagerRefId="Project.ConnectionManagers[ML-RefVm-765087.DestinationSystem.sa]"
                   description="The OLE DB runtime connection used to access the database."
@@ -3085,67 +3282,67 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\Stage Product Target\StageProductTarget.Inputs[OLE DB Destination Input]"
+                  refId="Package\Stage Product Target\OLE DB Destination.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Stage Product Target\StageProductTarget.Inputs[OLE DB Destination Input].Columns[ProductID]"
+                      refId="Package\Stage Product Target\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ProductID]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="ProductID"
-                      externalMetadataColumnId="Package\Stage Product Target\StageProductTarget.Inputs[OLE DB Destination Input].ExternalColumns[ProductID]"
-                      lineageId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Output].Columns[ProductID]" />
+                      externalMetadataColumnId="Package\Stage Product Target\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ProductID]"
+                      lineageId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Output].Columns[ProductID]" />
                     <inputColumn
-                      refId="Package\Stage Product Target\StageProductTarget.Inputs[OLE DB Destination Input].Columns[Product]"
+                      refId="Package\Stage Product Target\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Product]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Product"
-                      externalMetadataColumnId="Package\Stage Product Target\StageProductTarget.Inputs[OLE DB Destination Input].ExternalColumns[Product]"
-                      lineageId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Output].Columns[Product]" />
+                      externalMetadataColumnId="Package\Stage Product Target\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Product]"
+                      lineageId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Output].Columns[Product]" />
                     <inputColumn
-                      refId="Package\Stage Product Target\StageProductTarget.Inputs[OLE DB Destination Input].Columns[Year]"
+                      refId="Package\Stage Product Target\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Year]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Year"
-                      externalMetadataColumnId="Package\Stage Product Target\StageProductTarget.Inputs[OLE DB Destination Input].ExternalColumns[Year]"
-                      lineageId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Output].Columns[Year]" />
+                      externalMetadataColumnId="Package\Stage Product Target\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Year]"
+                      lineageId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Output].Columns[Year]" />
                     <inputColumn
-                      refId="Package\Stage Product Target\StageProductTarget.Inputs[OLE DB Destination Input].Columns[ SalesQuantityTarget ]"
+                      refId="Package\Stage Product Target\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ SalesQuantityTarget ]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName=" SalesQuantityTarget "
-                      externalMetadataColumnId="Package\Stage Product Target\StageProductTarget.Inputs[OLE DB Destination Input].ExternalColumns[ SalesQuantityTarget ]"
-                      lineageId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Output].Columns[ SalesQuantityTarget ]" />
+                      externalMetadataColumnId="Package\Stage Product Target\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ SalesQuantityTarget ]"
+                      lineageId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Output].Columns[ SalesQuantityTarget ]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Stage Product Target\StageProductTarget.Inputs[OLE DB Destination Input].ExternalColumns[ProductID]"
+                      refId="Package\Stage Product Target\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ProductID]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="ProductID" />
                     <externalMetadataColumn
-                      refId="Package\Stage Product Target\StageProductTarget.Inputs[OLE DB Destination Input].ExternalColumns[Product]"
+                      refId="Package\Stage Product Target\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Product]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Product" />
                     <externalMetadataColumn
-                      refId="Package\Stage Product Target\StageProductTarget.Inputs[OLE DB Destination Input].ExternalColumns[Year]"
+                      refId="Package\Stage Product Target\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Year]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Year" />
                     <externalMetadataColumn
-                      refId="Package\Stage Product Target\StageProductTarget.Inputs[OLE DB Destination Input].ExternalColumns[ SalesQuantityTarget ]"
+                      refId="Package\Stage Product Target\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ SalesQuantityTarget ]"
                       codePage="1252"
                       dataType="str"
                       length="50"
@@ -3155,22 +3352,22 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Stage Product Target\StageProductTarget.Outputs[OLE DB Destination Error Output]"
+                  refId="Package\Stage Product Target\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="OLE DB Destination Error Output"
-                  synchronousInputId="Package\Stage Product Target\StageProductTarget.Inputs[OLE DB Destination Input]">
+                  synchronousInputId="Package\Stage Product Target\OLE DB Destination.Inputs[OLE DB Destination Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Stage Product Target\StageProductTarget.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      refId="Package\Stage Product Target\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Stage Product Target\StageProductTarget.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Stage Product Target\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Stage Product Target\StageProductTarget.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      refId="Package\Stage Product Target\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Stage Product Target\StageProductTarget.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Stage Product Target\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -3182,9 +3379,9 @@
           <paths>
             <path
               refId="Package\Stage Product Target.Paths[Flat File Source Output]"
-              endId="Package\Stage Product Target\StageProductTarget.Inputs[OLE DB Destination Input]"
+              endId="Package\Stage Product Target\OLE DB Destination.Inputs[OLE DB Destination Input]"
               name="Flat File Source Output"
-              startId="Package\Stage Product Target\Source Product Target.Outputs[Flat File Source Output]" />
+              startId="Package\Stage Product Target\Flat File Source.Outputs[Flat File Source Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -6133,7 +6330,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[dbo].[StoreResellChannelTarget]</property>
+                  name="OpenRowset">[StageStoreResellChannelTarget]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -6471,7 +6668,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{111F60C2-AF2E-408F-8FF4-245C9C7DFD4B}"
-          SQLTask:SqlStatementSource="TRUNCATE TABLE [dbo].[StoreResellChannelTarget]" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="TRUNCATE TABLE [dbo].[StageStoreResellChannelTarget]" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -6489,6 +6686,40 @@
         <SQLTask:SqlTaskData
           SQLTask:Connection="{111F60C2-AF2E-408F-8FF4-245C9C7DFD4B}"
           SQLTask:SqlStatementSource="TRUNCATE TABLE dbo.StageChannelCategory" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\update dim key in temp"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{0C55C73E-9C72-45A7-8835-70289F0AF724}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="update dim key in temp"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{111F60C2-AF2E-408F-8FF4-245C9C7DFD4B}"
+          SQLTask:SqlStatementSource="--update dimProduct in Stage Sales Fact &#xA;UPDATE [DestinationSystem].[dbo].[stagefactSalesActual]&#xA;SET [DestinationSystem].[dbo].[stagefactSalesActual].dimProductID = [dbo].[dimProduct].[dimProductID]&#xA;FROM [dbo].[stagefactSalesActual]&#xA;INNER JOIN [dbo].[dimProduct]&#xA;ON [dbo].[stagefactSalesActual].[PRODUCT] = [dbo].[dimProduct].[dimSourceProductName]&#xA;AND [dbo].[stagefactSalesActual].[PRODUCTTYPE] = [dbo].[dimProduct].[dimSourceProductType]&#xA;AND [dbo].[stagefactSalesActual].[PRODUCTCATEGORY] = [dbo].[dimProduct].dimSourceProductCategory&#xA;&#xA;&#xA;--update dimStore in Stage Sales Fact &#xA;UPDATE [DestinationSystem].[dbo].[stagefactSalesActual]&#xA;SET [DestinationSystem].[dbo].[stagefactSalesActual].[dimStoreID] = [dbo].[dimStore].[dimStoreID]&#xA;FROM [dbo].[stagefactSalesActual]&#xA;INNER JOIN [dbo].[dimStore]&#xA;ON [DestinationSystem].[dbo].[stagefactSalesActual].[StoreID] = [DestinationSystem].[dbo].[dimStore].[dimSourceStoreID]&#xA;&#xA;UPDATE [DestinationSystem].[dbo].[stagefactSalesActual]&#xA;SET [DestinationSystem].[dbo].[stagefactSalesActual].[dimStoreID] = -1&#xA;WHERE [DestinationSystem].[dbo].[stagefactSalesActual].[dimStoreID] IS NULL;&#xA;&#xA;-- update dimReseller in Stage Sales Fact&#xA;UPDATE [DestinationSystem].[dbo].[stagefactSalesActual]&#xA;SET [dbo].[stagefactSalesActual].[dimRellerID] = [dbo].[dimReseller].dimRellerID&#xA;FROM [dbo].[stagefactSalesActual]&#xA;INNER JOIN [dbo].[dimReseller]&#xA;ON CONVERT(nvarchar(150),[dbo].[stagefactSalesActual].[ResellerID]) &#xA;= [dbo].[dimReseller].dimSourceResellerID&#xA;&#xA;UPDATE [DestinationSystem].[dbo].[stagefactSalesActual]&#xA;SET [dbo].[stagefactSalesActual].[dimRellerID] = -1&#xA;WHERE [DestinationSystem].[dbo].[stagefactSalesActual].[dimRellerID] IS NULL;&#xA;&#xA;--update dimCustomer in Stage Sales Fact&#xA;UPDATE [DestinationSystem].[dbo].[stagefactSalesActual]&#xA;SET [dbo].[stagefactSalesActual].[dimCustomerID] = [dbo].[dimCustomer].[dimCustomerID]&#xA;FROM [dbo].[stagefactSalesActual]&#xA;INNER JOIN [dbo].[dimCustomer]&#xA;ON CONVERT(nvarchar(150),[dbo].[stagefactSalesActual].[CustomerID]) &#xA;= [dbo].[dimCustomer].dimSourceCustomerID&#xA;&#xA;UPDATE [DestinationSystem].[dbo].[stagefactSalesActual]&#xA;SET [dbo].[stagefactSalesActual].[dimCustomerID] = -1&#xA;WHERE [dbo].[stagefactSalesActual].[dimCustomerID] IS NULL;&#xA;&#xA;--update dimChannel in Stage Sales Fact&#xA;UPDATE [DestinationSystem].[dbo].[stagefactSalesActual]&#xA;SET [dbo].[stagefactSalesActual].dimChannelID = [dbo].[dimChannel].dimChannelID&#xA;FROM [dbo].[stagefactSalesActual]&#xA;INNER JOIN [dbo].[dimChannel]&#xA;ON [dbo].[stagefactSalesActual].[ChannelID]&#xA;= [dbo].[dimChannel].dimSourceChannelID&#xA;&#xA;UPDATE [DestinationSystem].[dbo].[stagefactSalesActual]&#xA;SET [dbo].[stagefactSalesActual].dimChannelID = -1&#xA;WHERE [dbo].[stagefactSalesActual].dimChannelID IS NULL;&#xA;&#xA;--update dimDate in StageSales Fact&#xA;UPDATE [DestinationSystem].[dbo].[stagefactSalesActual]&#xA;SET [dbo].[stagefactSalesActual].DimDateID = [dbo].DimDate.[DimDateID]&#xA;FROM [dbo].[stagefactSalesActual]&#xA;INNER JOIN [dbo].[DimDate]&#xA;ON [dbo].[stagefactSalesActual].[SalesDate]&#xA;= [dbo].[DimDate].[FullDate]&#xA;&#xA;UPDATE [DestinationSystem].[dbo].[stagefactSalesActual]&#xA;SET [dbo].[stagefactSalesActual].DimDateID = -1&#xA;WHERE [dbo].[stagefactSalesActual].DimDateID IS NULL;&#xA;&#xA;&#xA;-- update dimlocation in Stagesales Fact&#xA;UPDATE [DestinationSystem].[dbo].[stagefactSalesActual]&#xA;SET [DestinationSystem].[dbo].[stagefactSalesActual].[dimLocationID] = [dbo].dimLocation.dimLocationID&#xA;FROM [dbo].[stagefactSalesActual]&#xA;INNER JOIN [dbo].[DimLocation]&#xA;ON [dbo].[stagefactSalesActual].[Address]&#xA;= [dbo].[DimLocation].[dimSourceAddress]&#xA;&#xA;UPDATE [DestinationSystem].[dbo].[stagefactSalesActual]&#xA;SET [DestinationSystem].[dbo].[stagefactSalesActual].[dimLocationID] = -1&#xA;WHERE [DestinationSystem].[dbo].[stagefactSalesActual].[dimLocationID] IS NULL;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Update Dim with Location"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{AECE4D65-5A96-45D5-8FDD-75F120A9AB3E}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Update Dim with Location"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{111F60C2-AF2E-408F-8FF4-245C9C7DFD4B}"
+          SQLTask:SqlStatementSource="/****** Script for SelectTopNRows command from SSMS  ******/&#xA;--UPDATE [dimStore] with locationID&#xA;UPDATE [DestinationSystem].[dbo].[dimStore]&#xA;SET [dbo].[dimStore].dimLocationID = [dbo].[dimLocation].dimLocationID&#xA;FROM [DestinationSystem].[dbo].[StageStore]&#xA;INNER JOIN [DestinationSystem].[dbo].[dimStore]&#xA;on [DestinationSystem].[dbo].[StageStore].StoreID = [DestinationSystem].[dbo].[dimStore].dimSourceStoreID&#xA;INNER JOIN [dbo].[dimLocation]&#xA;ON [dbo].[dimLocation].dimSourceAddress = [DestinationSystem].[dbo].[StageStore].[Address]&#xA;&#xA;--UPDATE [dimReseller] with locationID&#xA;UPDATE [DestinationSystem].[dbo].[dimReseller]&#xA;SET [DestinationSystem].[dbo].[dimReseller].dimLocationID = [DestinationSystem].[dbo].dimLocation.dimLocationID&#xA;FROM [DestinationSystem].[dbo].[dimReseller]&#xA;INNER JOIN [DestinationSystem].[dbo].StageReseller&#xA;ON [DestinationSystem].[dbo].[dimReseller].dimSourceResellerID &#xA;= convert(nvarchar(50),[DestinationSystem].[dbo].StageReseller.ResellerID)&#xA;INNER JOIN [DestinationSystem].[dbo].dimLocation&#xA;ON [DestinationSystem].[dbo].StageReseller.[Address] = [DestinationSystem].[dbo].dimLocation.dimSourceAddress&#xA;&#xA;--UPDATE [dimCustomer] with locationID&#xA;UPDATE [DestinationSystem].[dbo].dimCustomer&#xA;SET [DestinationSystem].[dbo].dimCustomer.dimLocationID = [DestinationSystem].[dbo].dimLocation.dimLocationID&#xA;FROM [DestinationSystem].[dbo].[dimCustomer]&#xA;INNER JOIN [DestinationSystem].[dbo].StageCustomer&#xA;ON [DestinationSystem].[dbo].[dimCustomer].dimSourceCustomerID = CONVERT(VARCHAR(150),[DestinationSystem].[dbo].StageCustomer.CustomerID)&#xA;INNER JOIN [DestinationSystem].[dbo].dimLocation&#xA;ON [DestinationSystem].[dbo].StageCustomer.[Address] = [DestinationSystem].[dbo].dimLocation.dimSourceAddress" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
@@ -6622,6 +6853,62 @@
       DTS:ObjectName="Constraint 22"
       DTS:To="Package\Truncate StoreResellChanel Target" />
     <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 23]"
+      DTS:CreationName=""
+      DTS:DTSID="{3E0CA81D-68CF-439B-9B6C-3D5EDA838436}"
+      DTS:From="Package\Stage StoreReChanelTarget"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 23"
+      DTS:To="Package\Delete_DimDimensional_Table" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 24]"
+      DTS:CreationName=""
+      DTS:DTSID="{2D87FAD2-788C-4937-A24D-F9696F98F3E7}"
+      DTS:From="Package\Delete_DimDimensional_Table"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 24"
+      DTS:To="Package\Create_Dimensional_Table" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 25]"
+      DTS:CreationName=""
+      DTS:DTSID="{7C7E4636-4B35-4917-85BB-38E594D56717}"
+      DTS:From="Package\Create_Dimensional_Table"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 25"
+      DTS:To="Package\Load_AllDIml_Data" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 26]"
+      DTS:CreationName=""
+      DTS:DTSID="{6D059969-EECC-4133-A23A-A5D9266600BA}"
+      DTS:From="Package\Load_AllDIml_Data"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 26"
+      DTS:To="Package\Load_AllDimUnknown_Data" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 27]"
+      DTS:CreationName=""
+      DTS:DTSID="{6348FF07-2B9C-4646-8A0E-2D6CA222AC4A}"
+      DTS:From="Package\Load_AllDimUnknown_Data"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 27"
+      DTS:To="Package\AllDateDimTasks" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 28]"
+      DTS:CreationName=""
+      DTS:DTSID="{7C5EFAC5-2C9A-46C9-9FA5-ACA26DABA078}"
+      DTS:From="Package\AllDateDimTasks"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 28"
+      DTS:To="Package\Update Dim with Location" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 29]"
+      DTS:CreationName=""
+      DTS:DTSID="{81761C92-94B0-455D-BEC2-4090F316FB83}"
+      DTS:From="Package\Update Dim with Location"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 29"
+      DTS:To="Package\Delete Sales Fact" />
+    <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 3]"
       DTS:CreationName=""
       DTS:DTSID="{BA51E1F8-CCDF-4E3F-A181-0C8695D2A9C8}"
@@ -6629,6 +6916,54 @@
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 3"
       DTS:To="Package\Stage Reseller" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 30]"
+      DTS:CreationName=""
+      DTS:DTSID="{D7A72EFC-7CE2-4790-B632-AC31F4A5E743}"
+      DTS:From="Package\Delete Sales Fact"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 30"
+      DTS:To="Package\Create Sales Fact" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 31]"
+      DTS:CreationName=""
+      DTS:DTSID="{66FA9110-2047-4249-B363-F27B5C38880B}"
+      DTS:From="Package\Create Sales Fact"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 31"
+      DTS:To="Package\create temp sales fact" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 32]"
+      DTS:CreationName=""
+      DTS:DTSID="{6FC2E37F-C882-43D4-B45D-E56D5B5D5FF7}"
+      DTS:From="Package\create temp sales fact"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 32"
+      DTS:To="Package\update dim key in temp" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 33]"
+      DTS:CreationName=""
+      DTS:DTSID="{3098BDF9-5196-495E-9FC8-9F3B8DD982FC}"
+      DTS:From="Package\update dim key in temp"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 33"
+      DTS:To="Package\Load temp to Sales Fact" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 34]"
+      DTS:CreationName=""
+      DTS:DTSID="{E9DF0195-9CC4-472A-B0E3-8526555000E4}"
+      DTS:From="Package\Load temp to Sales Fact"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 34"
+      DTS:To="Package\load product target" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 35]"
+      DTS:CreationName=""
+      DTS:DTSID="{DF68F7B4-E020-4B41-A756-44D49E9BC6BC}"
+      DTS:From="Package\load product target"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 35"
+      DTS:To="Package\load src target" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 4]"
       DTS:CreationName=""
@@ -6689,15 +7024,151 @@
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="128" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="161.333333333334,42.6666666666667"
+          Id="Package\AllDateDimTasks"
+          TopLeft="1224.24998545274,478.456145090189" />
+        <NodeLayout
+          Size="165.333333333334,42.6666666666667"
+          Id="Package\Create Sales Fact"
+          TopLeft="1541.4880842884,311.17794607642" />
+        <NodeLayout
+          Size="184,42.6666666666667"
+          Id="Package\create temp sales fact"
+          TopLeft="1624.99997578561,201.988307184423" />
+        <NodeLayout
+          Size="209.333333333334,42.6666666666667"
+          Id="Package\Create_Dimensional_Table"
+          TopLeft="1273.4374810243,188.157898278448" />
+        <NodeLayout
+          Size="164,42.6666666666667"
+          Id="Package\Delete Sales Fact"
+          TopLeft="1521.48808450128,390.426066524356" />
+        <NodeLayout
+          Size="226.666666666667,42.6666666666667"
+          Id="Package\Delete_DimDimensional_Table"
+          TopLeft="1262.49998118728,80.3947383553368" />
+        <NodeLayout
+          Size="168,42.6666666666667"
+          Id="Package\load product target"
+          TopLeft="1772.91664024815,405.964919921984" />
+        <NodeLayout
+          Size="194.666666666667,42.6666666666667"
+          Id="Package\Load temp to Sales Fact"
+          TopLeft="1777.08330685273,295.730999174688" />
+        <NodeLayout
+          Size="172,42.6666666666667"
+          Id="Package\Load_AllDIml_Data"
+          TopLeft="1267.18748111744,287.368426461629" />
+        <NodeLayout
+          Size="213.333333333334,42.6666666666667"
+          Id="Package\Load_AllDimUnknown_Data"
+          TopLeft="1228.12498169951,399.517548399344" />
         <NodeLayout
           Size="150.666666666667,42.6666666666667"
           Id="Package\Stage Channel"
           TopLeft="72.2916655894365,88.0350893763405" />
         <NodeLayout
+          Size="196.666666666667,42.6666666666667"
+          Id="Package\Stage Channel Category"
+          TopLeft="59.9999991059304,233.210530140723" />
+        <NodeLayout
+          Size="156,42.6666666666667"
+          Id="Package\Stage Customer"
+          TopLeft="369.99999448657,275.578952116319" />
+        <NodeLayout
+          Size="146.666666666667,42.6666666666667"
+          Id="Package\Stage Product"
+          TopLeft="786.458321614191,110.614037169754" />
+        <NodeLayout
+          Size="193.333333333334,42.6666666666667"
+          Id="Package\Stage Product Category"
+          TopLeft="804.999988004565,417.368428908557" />
+        <NodeLayout
+          Size="181.333333333334,42.6666666666667"
+          Id="Package\Stage Product Target"
+          TopLeft="1023.74998474494,270.385967642537" />
+        <NodeLayout
+          Size="173.333333333334,42.6666666666667"
+          Id="Package\Stage Product Type"
+          TopLeft="777.708321744576,256.192986839146" />
+        <NodeLayout
+          Size="149.333333333334,42.6666666666667"
+          Id="Package\Stage Reseller"
+          TopLeft="50.520832580514,386.61988985799" />
+        <NodeLayout
+          Size="169.333333333334,42.6666666666667"
+          Id="Package\Stage SalesDetails"
+          TopLeft="549.583325143904,188.000003099442" />
+        <NodeLayout
+          Size="172,42.6666666666667"
+          Id="Package\Stage SalesHeader"
+          TopLeft="590.416657868773,352.228075236715" />
+        <NodeLayout
+          Size="136,42.6666666666667"
+          Id="Package\Stage Store"
+          TopLeft="270.208329306916,96.7836258168512" />
+        <NodeLayout
+          Size="214.666666666667,42.6666666666667"
+          Id="Package\Stage StoreReChanelTarget"
+          TopLeft="986.583318711569,84.1403519589925" />
+        <NodeLayout
           Size="164,42.6666666666667"
           Id="Package\Truncate Channel"
           TopLeft="46.2499993108213,20.5263161758307" />
+        <NodeLayout
+          Size="194.666666666667,42.6666666666667"
+          Id="Package\Truncate Product Target"
+          TopLeft="934.666652957598,472.105272044105" />
+        <NodeLayout
+          Size="164,42.6666666666667"
+          Id="Package\Truncate Reseller"
+          TopLeft="66.1458323476832,305.614040840145" />
+        <NodeLayout
+          Size="181.333333333334,42"
+          Id="Package\Truncate Stage Customer"
+          TopLeft="336.666661649942,193.251465353903" />
+        <NodeLayout
+          Size="192,42.6666666666667"
+          Id="Package\Truncate Stage Product"
+          TopLeft="560.833324976266,68.649124099167" />
+        <NodeLayout
+          Size="238.666666666667,42.6666666666667"
+          Id="Package\Truncate Stage Product Category"
+          TopLeft="777.708321744576,332.368426869451" />
+        <NodeLayout
+          Size="218.666666666667,42.6666666666667"
+          Id="Package\Truncate Stage Product Type"
+          TopLeft="746.04165554978,188.614038637911" />
+        <NodeLayout
+          Size="214.666666666667,42.6666666666667"
+          Id="Package\Truncate Stage SalesDetails"
+          TopLeft="540.416658613831,260.771933164403" />
+        <NodeLayout
+          Size="214.666666666667,42.6666666666667"
+          Id="Package\Truncate Stage Salesheader"
+          TopLeft="417.291660448537,450.473691246516" />
+        <NodeLayout
+          Size="181.333333333334,42.6666666666667"
+          Id="Package\Truncate Stage Store"
+          TopLeft="210.624996861443,432.561407509713" />
+        <NodeLayout
+          Size="248,42.6666666666667"
+          Id="Package\Truncate StoreResellChanel Target"
+          TopLeft="998.749985117466,170.280702449828" />
+        <NodeLayout
+          Size="205.333333333334,42.6666666666667"
+          Id="Package\TruncateChannelCategory"
+          TopLeft="52.916665878147,155.771932756582" />
+        <NodeLayout
+          Size="189.333333333334,42.6666666666667"
+          Id="Package\update dim key in temp"
+          TopLeft="1691.66664145887,101.871346402953" />
+        <NodeLayout
+          Size="200.666666666667,42.6666666666667"
+          Id="Package\Update Dim with Location"
+          TopLeft="1487.49997783452,481.228079233363" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="128.249999310821,63.1929828424974">
@@ -6732,14 +7203,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="205.333333333334,42.6666666666667"
-          Id="Package\TruncateChannelCategory"
-          TopLeft="52.916665878147,155.771932756582" />
-        <NodeLayout
-          Size="196.666666666667,42.6666666666667"
-          Id="Package\Stage Channel Category"
-          TopLeft="59.9999991059304,233.210530140723" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
           TopLeft="156.958332492039,198.438599423248">
@@ -6754,292 +7217,6 @@
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,27.2719307174752" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="151.604165733792,130.701756043007">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,25.0701767135745"
-              Start="0,0"
-              End="0,17.5701767135745">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,17.5701767135745" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="164,42.6666666666667"
-          Id="Package\Truncate Reseller"
-          TopLeft="66.1458323476832,305.614040840145" />
-        <NodeLayout
-          Size="149.333333333334,42.6666666666667"
-          Id="Package\Stage Reseller"
-          TopLeft="50.520832580514,386.61988985799" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="148.145832347683,348.280707506812">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-46.5138886560581,38.3391823511777"
-              Start="0,0"
-              End="-46.5138886560581,30.8391823511777">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,18.759655954056" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,18.759655954056"
-                    Point2="0,22.759655954056"
-                    Point3="-4,22.759655954056" />
-                  <mssgle:LineSegment
-                    End="-42.5138886560581,22.759655954056" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-42.5138886560581,22.759655954056"
-                    Point2="-46.5138886560581,22.759655954056"
-                    Point3="-46.5138886560581,26.759655954056" />
-                  <mssgle:LineSegment
-                    End="-46.5138886560581,30.8391823511777" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 4]"
-          TopLeft="158.333332439264,275.87719680739">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-10.1875000915805,29.7368440327552"
-              Start="0,0"
-              End="-10.1875000915805,22.2368440327552">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,10.8684220163776" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,10.8684220163776"
-                    Point2="0,14.8684220163776"
-                    Point3="-4,14.8684220163776" />
-                  <mssgle:LineSegment
-                    End="-6.18750009158052,14.8684220163776" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-6.18750009158052,14.8684220163776"
-                    Point2="-10.1875000915805,14.8684220163776"
-                    Point3="-10.1875000915805,18.8684220163776" />
-                  <mssgle:LineSegment
-                    End="-10.1875000915805,22.2368440327552" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="181.333333333334,42.6666666666667"
-          Id="Package\Truncate Stage Store"
-          TopLeft="210.624996861443,432.561407509713" />
-        <NodeLayout
-          Size="136,42.6666666666667"
-          Id="Package\Stage Store"
-          TopLeft="270.208329306916,96.7836258168512" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 5]"
-          TopLeft="330.180552416999,432.561407509713">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-13.3055564434162,-293.111115026195"
-              Start="0,0"
-              End="-13.3055564434162,-285.611115026195">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,-142.030268776491" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,-142.030268776491"
-                    Point2="0,-146.030268776491"
-                    Point3="-4,-146.030268776491" />
-                  <mssgle:LineSegment
-                    End="-9.30555644341621,-146.030268776491" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-9.30555644341621,-146.030268776491"
-                    Point2="-13.3055564434162,-146.030268776491"
-                    Point3="-13.3055564434162,-150.030268776491" />
-                  <mssgle:LineSegment
-                    End="-13.3055564434162,-285.611115026195" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 6]"
-          TopLeft="199.854165913847,407.953223191323">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="72.5486087253734,24.6081843183899"
-              Start="0,0"
-              End="72.5486087253734,17.1081843183899">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="68.5486087253734,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="68.5486087253734,0"
-                    Point2="72.5486087253734,0"
-                    Point3="72.5486087253734,4" />
-                  <mssgle:LineSegment
-                    End="72.5486087253734,17.1081843183899" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="181.333333333334,42"
-          Id="Package\Truncate Stage Customer"
-          TopLeft="336.666661649942,193.251465353903" />
-        <NodeLayout
-          Size="156,42.6666666666667"
-          Id="Package\Stage Customer"
-          TopLeft="369.99999448657,275.578952116319" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 7]"
-          TopLeft="427.333328316609,235.251465353903">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="20.6666661699613,40.3274867624164"
-              Start="0,0"
-              End="20.6666661699613,32.8274867624164">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16.1637433812082" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,16.1637433812082"
-                    Point2="0,20.1637433812082"
-                    Point3="4,20.1637433812082" />
-                  <mssgle:LineSegment
-                    End="16.6666661699613,20.1637433812082" />
-                  <mssgle:CubicBezierSegment
-                    Point1="16.6666661699613,20.1637433812082"
-                    Point2="20.6666661699613,20.1637433812082"
-                    Point3="20.6666661699613,24.1637433812082" />
-                  <mssgle:LineSegment
-                    End="20.6666661699613,32.8274867624164" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 8]"
-          TopLeft="359.541662640249,139.450292483518">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="67.7916656763601,53.8011728703847"
-              Start="0,0"
-              End="67.7916656763601,46.3011728703847">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,17.8958261681798" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,17.8958261681798"
-                    Point2="0,21.8958261681798"
-                    Point3="4,21.8958261681798" />
-                  <mssgle:LineSegment
-                    End="63.7916656763601,21.8958261681798" />
-                  <mssgle:CubicBezierSegment
-                    Point1="63.7916656763601,21.8958261681798"
-                    Point2="67.7916656763601,21.8958261681798"
-                    Point3="67.7916656763601,25.8958261681798" />
-                  <mssgle:LineSegment
-                    End="67.7916656763601,46.3011728703847" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="214.666666666667,42.6666666666667"
-          Id="Package\Truncate Stage Salesheader"
-          TopLeft="417.291660448537,450.473691246516" />
-        <NodeLayout
-          Size="172,42.6666666666667"
-          Id="Package\Stage SalesHeader"
-          TopLeft="590.416657868773,352.228075236715" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 9]"
-          TopLeft="559.069438226314,450.473691246516">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="117.347219642459,-55.5789493431345"
-              Start="0,0"
-              End="117.347219642459,-48.0789493431345">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,-18.4782927059779" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,-18.4782927059779"
-                    Point2="0,-22.4782927059779"
-                    Point3="4,-22.4782927059779" />
-                  <mssgle:LineSegment
-                    End="113.347219642459,-22.4782927059779" />
-                  <mssgle:CubicBezierSegment
-                    Point1="113.347219642459,-22.4782927059779"
-                    Point2="117.347219642459,-22.4782927059779"
-                    Point3="117.347219642459,-26.4782927059779" />
-                  <mssgle:LineSegment
-                    End="117.347219642459,-48.0789493431345" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7082,14 +7259,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="214.666666666667,42.6666666666667"
-          Id="Package\Truncate Stage SalesDetails"
-          TopLeft="540.416658613831,260.771933164403" />
-        <NodeLayout
-          Size="169.333333333334,42.6666666666667"
-          Id="Package\Stage SalesDetails"
-          TopLeft="549.583325143904,188.000003099442" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 11]"
           TopLeft="647.749991947164,260.771933164403">
@@ -7158,14 +7327,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="192,42.6666666666667"
-          Id="Package\Truncate Stage Product"
-          TopLeft="560.833324976266,68.649124099167" />
-        <NodeLayout
-          Size="146.666666666667,42.6666666666667"
-          Id="Package\Stage Product"
-          TopLeft="786.458321614191,110.614037169754" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 13]"
           TopLeft="752.833324976266,89.9824574325003">
@@ -7234,14 +7395,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="218.666666666667,42.6666666666667"
-          Id="Package\Truncate Stage Product Type"
-          TopLeft="746.04165554978,188.614038637911" />
-        <NodeLayout
-          Size="173.333333333334,42.6666666666667"
-          Id="Package\Stage Product Type"
-          TopLeft="777.708321744576,256.192986839146" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 15]"
           TopLeft="855.374988883113,231.280705304577">
@@ -7298,14 +7451,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="238.666666666667,42.6666666666667"
-          Id="Package\Truncate Stage Product Category"
-          TopLeft="777.708321744576,332.368426869451" />
-        <NodeLayout
-          Size="193.333333333334,42.6666666666667"
-          Id="Package\Stage Product Category"
-          TopLeft="804.999988004565,417.368428908557" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 17]"
           TopLeft="899.354154874571,375.035093536117">
@@ -7362,14 +7507,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="194.666666666667,42.6666666666667"
-          Id="Package\Truncate Product Target"
-          TopLeft="934.666652957598,472.105272044105" />
-        <NodeLayout
-          Size="181.333333333334,42.6666666666667"
-          Id="Package\Stage Product Target"
-          TopLeft="1023.74998474494,270.385967642537" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 19]"
           TopLeft="1031.99998629093,472.105272044105">
@@ -7396,6 +7533,28 @@
                     Point3="82.416665120672,-83.5263188674512" />
                   <mssgle:LineSegment
                     End="82.416665120672,-151.552637734902" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 2]"
+          TopLeft="151.604165733792,130.701756043007">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,25.0701767135745"
+              Start="0,0"
+              End="0,17.5701767135745">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,17.5701767135745" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7432,14 +7591,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="248,42.6666666666667"
-          Id="Package\Truncate StoreResellChanel Target"
-          TopLeft="998.749985117466,170.280702449828" />
-        <NodeLayout
-          Size="214.666666666667,42.6666666666667"
-          Id="Package\Stage StoreReChanelTarget"
-          TopLeft="986.583318711569,84.1403519589925" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 21]"
           TopLeft="1122.74998511747,170.280702449828">
@@ -7500,6 +7651,648 @@
                     Point3="8.33333370586229,-32.7192992630207" />
                   <mssgle:LineSegment
                     End="8.33333370586229,-49.9385985260415" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 23]"
+          TopLeft="1201.24998537824,103.600878490498">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="61.2499958090486,0"
+              Start="0,0"
+              End="53.7499958090486,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="53.7499958090486,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 24]"
+          TopLeft="1376.96873110579,123.061405022003">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,65.0964932564443"
+              Start="0,0"
+              End="0,57.5964932564443">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,57.5964932564443" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 25]"
+          TopLeft="1378.10414769097,230.824564945115">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-24.9166665735268,56.5438615165143"
+              Start="0,0"
+              End="-24.9166665735268,49.0438615165143">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,24.2719307582572" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,24.2719307582572"
+                    Point2="0,28.2719307582572"
+                    Point3="-4,28.2719307582572" />
+                  <mssgle:LineSegment
+                    End="-20.9166665735268,28.2719307582572" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-20.9166665735268,28.2719307582572"
+                    Point2="-24.9166665735268,28.2719307582572"
+                    Point3="-24.9166665735268,32.2719307582572" />
+                  <mssgle:LineSegment
+                    End="-24.9166665735268,49.0438615165143" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 26]"
+          TopLeft="1353.18748111744,330.035093128296">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-18.3958327512632,69.4824552710483"
+              Start="0,0"
+              End="-18.3958327512632,61.9824552710483">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30.7412276355242" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,30.7412276355242"
+                    Point2="0,34.7412276355242"
+                    Point3="-4,34.7412276355242" />
+                  <mssgle:LineSegment
+                    End="-14.3958327512632,34.7412276355242" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-14.3958327512632,34.7412276355242"
+                    Point2="-18.3958327512632,34.7412276355242"
+                    Point3="-18.3958327512632,38.7412276355242" />
+                  <mssgle:LineSegment
+                    End="-18.3958327512632,61.9824552710483" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 27]"
+          TopLeft="1334.79164836618,442.184215066011">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-29.8749962467691,36.2719300241787"
+              Start="0,0"
+              End="-29.8749962467691,28.7719300241787">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,14.1359650120894" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,14.1359650120894"
+                    Point2="0,18.1359650120894"
+                    Point3="-4,18.1359650120894" />
+                  <mssgle:LineSegment
+                    End="-25.8749962467691,18.1359650120894" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-25.8749962467691,18.1359650120894"
+                    Point2="-29.8749962467691,18.1359650120894"
+                    Point3="-29.8749962467691,22.1359650120894" />
+                  <mssgle:LineSegment
+                    End="-29.8749962467691,28.7719300241787" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 28]"
+          TopLeft="1385.58331878607,501.175445495109">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="101.916659048447,0"
+              Start="0,0"
+              End="94.4166590484467,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="94.4166590484467,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 29]"
+          TopLeft="1587.83331116785,481.228079233363">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="15.6547733334235,-48.1353460423406"
+              Start="0,0"
+              End="15.6547733334235,-40.6353460423406">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-20.0676730211703" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-20.0676730211703"
+                    Point2="0,-24.0676730211703"
+                    Point3="4,-24.0676730211703" />
+                  <mssgle:LineSegment
+                    End="11.6547733334235,-24.0676730211703" />
+                  <mssgle:CubicBezierSegment
+                    Point1="11.6547733334235,-24.0676730211703"
+                    Point2="15.6547733334235,-24.0676730211703"
+                    Point3="15.6547733334235,-28.0676730211703" />
+                  <mssgle:LineSegment
+                    End="15.6547733334235,-40.6353460423406" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 3]"
+          TopLeft="148.145832347683,348.280707506812">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-46.5138886560581,38.3391823511777"
+              Start="0,0"
+              End="-46.5138886560581,30.8391823511777">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,18.759655954056" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,18.759655954056"
+                    Point2="0,22.759655954056"
+                    Point3="-4,22.759655954056" />
+                  <mssgle:LineSegment
+                    End="-42.5138886560581,22.759655954056" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-42.5138886560581,22.759655954056"
+                    Point2="-46.5138886560581,22.759655954056"
+                    Point3="-46.5138886560581,26.759655954056" />
+                  <mssgle:LineSegment
+                    End="-46.5138886560581,30.8391823511777" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 30]"
+          TopLeft="1603.48808450128,390.426066524356">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="20.6666664537931,-36.5814537812689"
+              Start="0,0"
+              End="20.6666664537931,-29.0814537812689">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-14.2907268906344" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-14.2907268906344"
+                    Point2="0,-18.2907268906344"
+                    Point3="4,-18.2907268906344" />
+                  <mssgle:LineSegment
+                    End="16.6666664537931,-18.2907268906344" />
+                  <mssgle:CubicBezierSegment
+                    Point1="16.6666664537931,-18.2907268906344"
+                    Point2="20.6666664537931,-18.2907268906344"
+                    Point3="20.6666664537931,-22.2907268906344" />
+                  <mssgle:LineSegment
+                    End="20.6666664537931,-29.0814537812689" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 31]"
+          TopLeft="1624.15475095507,311.17794607642">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="92.8452248305434,-66.5229722253304"
+              Start="0,0"
+              End="92.8452248305434,-59.0229722253304">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-29.2614861126652" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-29.2614861126652"
+                    Point2="0,-33.2614861126652"
+                    Point3="4,-33.2614861126652" />
+                  <mssgle:LineSegment
+                    End="88.8452248305434,-33.2614861126652" />
+                  <mssgle:CubicBezierSegment
+                    Point1="88.8452248305434,-33.2614861126652"
+                    Point2="92.8452248305434,-33.2614861126652"
+                    Point3="92.8452248305434,-37.2614861126652" />
+                  <mssgle:LineSegment
+                    End="92.8452248305434,-59.0229722253304" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 32]"
+          TopLeft="1716.99997578561,201.988307184423">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="69.3333323399224,-57.4502941148029"
+              Start="0,0"
+              End="69.3333323399224,-49.9502941148029">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-24.7251470574015" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-24.7251470574015"
+                    Point2="0,-28.7251470574015"
+                    Point3="4,-28.7251470574015" />
+                  <mssgle:LineSegment
+                    End="65.3333323399224,-28.7251470574015" />
+                  <mssgle:CubicBezierSegment
+                    Point1="65.3333323399224,-28.7251470574015"
+                    Point2="69.3333323399224,-28.7251470574015"
+                    Point3="69.3333323399224,-32.7251470574015" />
+                  <mssgle:LineSegment
+                    End="69.3333323399224,-49.9502941148029" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 33]"
+          TopLeft="1816.55553034776,144.53801306962">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="57.8611098383039,151.192986105067"
+              Start="0,0"
+              End="57.8611098383039,143.692986105067">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,57.2373826403206" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,57.2373826403206"
+                    Point2="0,61.2373826403206"
+                    Point3="4,61.2373826403206" />
+                  <mssgle:LineSegment
+                    End="53.8611098383039,61.2373826403206" />
+                  <mssgle:CubicBezierSegment
+                    Point1="53.8611098383039,61.2373826403206"
+                    Point2="57.8611098383039,61.2373826403206"
+                    Point3="57.8611098383039,65.2373826403206" />
+                  <mssgle:LineSegment
+                    End="57.8611098383039,143.692986105067" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 34]"
+          TopLeft="1874.41664018606,338.397665841355">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-17.4999999379136,67.5672540806297"
+              Start="0,0"
+              End="-17.4999999379136,60.0672540806297">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,29.7836270403148" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,29.7836270403148"
+                    Point2="0,33.7836270403148"
+                    Point3="-4,33.7836270403148" />
+                  <mssgle:LineSegment
+                    End="-13.4999999379136,33.7836270403148" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-13.4999999379136,33.7836270403148"
+                    Point2="-17.4999999379136,33.7836270403148"
+                    Point3="-17.4999999379136,37.7836270403148" />
+                  <mssgle:LineSegment
+                    End="-17.4999999379136,60.0672540806297" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 4]"
+          TopLeft="158.333332439264,275.87719680739">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-10.1875000915805,29.7368440327552"
+              Start="0,0"
+              End="-10.1875000915805,22.2368440327552">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,10.8684220163776" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,10.8684220163776"
+                    Point2="0,14.8684220163776"
+                    Point3="-4,14.8684220163776" />
+                  <mssgle:LineSegment
+                    End="-6.18750009158052,14.8684220163776" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-6.18750009158052,14.8684220163776"
+                    Point2="-10.1875000915805,14.8684220163776"
+                    Point3="-10.1875000915805,18.8684220163776" />
+                  <mssgle:LineSegment
+                    End="-10.1875000915805,22.2368440327552" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 5]"
+          TopLeft="330.180552416999,432.561407509713">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-13.3055564434162,-293.111115026195"
+              Start="0,0"
+              End="-13.3055564434162,-285.611115026195">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-142.030268776491" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-142.030268776491"
+                    Point2="0,-146.030268776491"
+                    Point3="-4,-146.030268776491" />
+                  <mssgle:LineSegment
+                    End="-9.30555644341621,-146.030268776491" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-9.30555644341621,-146.030268776491"
+                    Point2="-13.3055564434162,-146.030268776491"
+                    Point3="-13.3055564434162,-150.030268776491" />
+                  <mssgle:LineSegment
+                    End="-13.3055564434162,-285.611115026195" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 6]"
+          TopLeft="199.854165913847,407.953223191323">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="72.5486087253734,24.6081843183899"
+              Start="0,0"
+              End="72.5486087253734,17.1081843183899">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="68.5486087253734,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="68.5486087253734,0"
+                    Point2="72.5486087253734,0"
+                    Point3="72.5486087253734,4" />
+                  <mssgle:LineSegment
+                    End="72.5486087253734,17.1081843183899" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 7]"
+          TopLeft="427.333328316609,235.251465353903">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="20.6666661699613,40.3274867624164"
+              Start="0,0"
+              End="20.6666661699613,32.8274867624164">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.1637433812082" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.1637433812082"
+                    Point2="0,20.1637433812082"
+                    Point3="4,20.1637433812082" />
+                  <mssgle:LineSegment
+                    End="16.6666661699613,20.1637433812082" />
+                  <mssgle:CubicBezierSegment
+                    Point1="16.6666661699613,20.1637433812082"
+                    Point2="20.6666661699613,20.1637433812082"
+                    Point3="20.6666661699613,24.1637433812082" />
+                  <mssgle:LineSegment
+                    End="20.6666661699613,32.8274867624164" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 8]"
+          TopLeft="359.541662640249,139.450292483518">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="67.7916656763601,53.8011728703847"
+              Start="0,0"
+              End="67.7916656763601,46.3011728703847">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,17.8958261681798" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,17.8958261681798"
+                    Point2="0,21.8958261681798"
+                    Point3="4,21.8958261681798" />
+                  <mssgle:LineSegment
+                    End="63.7916656763601,21.8958261681798" />
+                  <mssgle:CubicBezierSegment
+                    Point1="63.7916656763601,21.8958261681798"
+                    Point2="67.7916656763601,21.8958261681798"
+                    Point3="67.7916656763601,25.8958261681798" />
+                  <mssgle:LineSegment
+                    End="67.7916656763601,46.3011728703847" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 9]"
+          TopLeft="559.069438226314,450.473691246516">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="117.347219642459,-55.5789493431345"
+              Start="0,0"
+              End="117.347219642459,-48.0789493431345">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-18.4782927059779" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-18.4782927059779"
+                    Point2="0,-22.4782927059779"
+                    Point3="4,-22.4782927059779" />
+                  <mssgle:LineSegment
+                    End="113.347219642459,-22.4782927059779" />
+                  <mssgle:CubicBezierSegment
+                    Point1="113.347219642459,-22.4782927059779"
+                    Point2="117.347219642459,-22.4782927059779"
+                    Point3="117.347219642459,-26.4782927059779" />
+                  <mssgle:LineSegment
+                    End="117.347219642459,-48.0789493431345" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="146.666666666667,42.6666666666667"
+          Id="Package\load src target"
+          TopLeft="1762.77776548432,494.26900979738" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 35]"
+          TopLeft="1856.91664024815,448.631586588651">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-20.8055414304972,45.6374232087295"
+              Start="0,0"
+              End="-20.8055414304972,38.1374232087295">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,18.8187116043648" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,18.8187116043648"
+                    Point2="0,22.8187116043648"
+                    Point3="-4,22.8187116043648" />
+                  <mssgle:LineSegment
+                    End="-16.8055414304972,22.8187116043648" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-16.8055414304972,22.8187116043648"
+                    Point2="-20.8055414304972,22.8187116043648"
+                    Point3="-20.8055414304972,26.8187116043648" />
+                  <mssgle:LineSegment
+                    End="-20.8055414304972,38.1374232087295" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7593,7 +8386,7 @@
     design-time-name="Package\Stage Channel Category">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="202.666666666667,42.6666666666667"
           Id="Package\Stage Channel Category\Source Channel Category"
@@ -7633,25 +8426,14 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Stage Channel Category\Source Channel Category">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Stage Channel Category\Destination Channel Category">
     <Properties>
@@ -7665,147 +8447,8 @@
       </Property>
     </Properties>
   </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Stage Reseller">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="156,42.6666666666667"
-          Id="Package\Stage Reseller\Source Reseller"
-          TopLeft="126,78" />
-        <NodeLayout
-          Size="153.333333333334,42.6666666666667"
-          Id="Package\Stage Reseller\StagedReseller"
-          TopLeft="486,109" />
-        <EdgeLayout
-          Id="Package\Stage Reseller.Paths[OLE DB Source Output]"
-          TopLeft="282,99.3333333333333">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="204,31"
-              Start="0,0"
-              End="196.5,31">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="98,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="98,0"
-                    Point2="102,0"
-                    Point3="102,4" />
-                  <mssgle:LineSegment
-                    End="102,27" />
-                  <mssgle:CubicBezierSegment
-                    Point1="102,27"
-                    Point2="102,31"
-                    Point3="106,31" />
-                  <mssgle:LineSegment
-                    End="196.5,31" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Stage Reseller\Source Reseller">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Stage Reseller\StagedReseller">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Stage Store">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="141.333333333334,42.6666666666667"
-          Id="Package\Stage Store\Source Store"
-          TopLeft="119,70" />
-        <NodeLayout
-          Size="133.333333333334,42.6666666666667"
-          Id="Package\Stage Store\StageStore"
-          TopLeft="485,81" />
-        <EdgeLayout
-          Id="Package\Stage Store.Paths[OLE DB Source Output]"
-          TopLeft="260.333333333333,91.3333333333333">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="224.666666666667,11"
-              Start="0,0"
-              End="217.166666666667,11">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="108.333333333333,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="108.333333333333,0"
-                    Point2="112.333333333333,0"
-                    Point3="112.333333333333,4" />
-                  <mssgle:LineSegment
-                    End="112.333333333333,7" />
-                  <mssgle:CubicBezierSegment
-                    Point1="112.333333333333,7"
-                    Point2="112.333333333333,11"
-                    Point3="116.333333333333,11" />
-                  <mssgle:LineSegment
-                    End="217.166666666667,11" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Stage Store\Source Store">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Stage Store\StageStore">
+    design-time-name="Package\Stage Channel Category\Source Channel Category">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -7821,15 +8464,15 @@
     design-time-name="Package\Stage Customer">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="162.666666666667,42.6666666666667"
-          Id="Package\Stage Customer\Source Customer"
-          TopLeft="118,65" />
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="156,42.6666666666667"
           Id="Package\Stage Customer\Stage Customer"
           TopLeft="427,97" />
+        <NodeLayout
+          Size="162.666666666667,42.6666666666667"
+          Id="Package\Stage Customer\Source Customer"
+          TopLeft="118,65" />
         <EdgeLayout
           Id="Package\Stage Customer.Paths[OLE DB Source Output]"
           TopLeft="280.666666666667,86.3333333333333">
@@ -7861,7 +8504,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -7894,170 +8539,18 @@
     </Properties>
   </PipelineComponentMetadata>
   <TaskHost
-    design-time-name="Package\Stage SalesHeader">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="181.333333333334,42.6666666666667"
-          Id="Package\Stage SalesHeader\Source Sales Header"
-          TopLeft="166,66" />
-        <NodeLayout
-          Size="174.666666666667,42.6666666666667"
-          Id="Package\Stage SalesHeader\Stage Sales Header"
-          TopLeft="477,81" />
-        <EdgeLayout
-          Id="Package\Stage SalesHeader.Paths[OLE DB Source Output]"
-          TopLeft="347.333333333333,87.3333333333333">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="129.666666666667,15"
-              Start="0,0"
-              End="122.166666666667,15">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="60.8333333333333,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="60.8333333333333,0"
-                    Point2="64.8333333333333,0"
-                    Point3="64.8333333333333,4" />
-                  <mssgle:LineSegment
-                    End="64.8333333333333,11" />
-                  <mssgle:CubicBezierSegment
-                    Point1="64.8333333333333,11"
-                    Point2="64.8333333333333,15"
-                    Point3="68.8333333333333,15" />
-                  <mssgle:LineSegment
-                    End="122.166666666667,15" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Stage SalesHeader\Source Sales Header">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Stage SalesHeader\Stage Sales Header">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Stage SalesDetails">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="170.666666666667,42.6666666666667"
-          Id="Package\Stage SalesDetails\Source SalesDetail"
-          TopLeft="139,82" />
-        <NodeLayout
-          Size="164,42.6666666666667"
-          Id="Package\Stage SalesDetails\Stage SalesDetail"
-          TopLeft="483,104" />
-        <EdgeLayout
-          Id="Package\Stage SalesDetails.Paths[OLE DB Source Output]"
-          TopLeft="309.666666666667,103.333333333333">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="173.333333333333,22"
-              Start="0,0"
-              End="165.833333333333,22">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="82.6666666666667,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="82.6666666666667,0"
-                    Point2="86.6666666666667,0"
-                    Point3="86.6666666666667,4" />
-                  <mssgle:LineSegment
-                    End="86.6666666666667,18" />
-                  <mssgle:CubicBezierSegment
-                    Point1="86.6666666666667,18"
-                    Point2="86.6666666666667,22"
-                    Point3="90.6666666666667,22" />
-                  <mssgle:LineSegment
-                    End="165.833333333333,22" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Stage SalesDetails\Source SalesDetail">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Stage SalesDetails\Stage SalesDetail">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
     design-time-name="Package\Stage Product">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="153.333333333334,42.6666666666667"
-          Id="Package\Stage Product\Source Product"
-          TopLeft="131,61" />
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="146.666666666667,42.6666666666667"
           Id="Package\Stage Product\Stage Product"
           TopLeft="445,85" />
+        <NodeLayout
+          Size="153.333333333334,42.6666666666667"
+          Id="Package\Stage Product\Source Product"
+          TopLeft="131,61" />
         <EdgeLayout
           Id="Package\Stage Product.Paths[OLE DB Source Output]"
           TopLeft="284.333333333333,82.3333333333333">
@@ -8089,7 +8582,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -8122,86 +8617,10 @@
     </Properties>
   </PipelineComponentMetadata>
   <TaskHost
-    design-time-name="Package\Stage Product Type">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="173.333333333334,42.6666666666667"
-          Id="Package\Stage Product Type\source product type"
-          TopLeft="130,69" />
-        <NodeLayout
-          Size="173.333333333334,42.6666666666667"
-          Id="Package\Stage Product Type\Stage Product Type"
-          TopLeft="509,79" />
-        <EdgeLayout
-          Id="Package\Stage Product Type.Paths[OLE DB Source Output]"
-          TopLeft="303.333333333333,90.3333333333333">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="205.666666666667,10"
-              Start="0,0"
-              End="198.166666666667,10">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="98.8333333333333,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="98.8333333333333,0"
-                    Point2="102.833333333333,0"
-                    Point3="102.833333333333,4" />
-                  <mssgle:LineSegment
-                    End="102.833333333333,6" />
-                  <mssgle:CubicBezierSegment
-                    Point1="102.833333333333,6"
-                    Point2="102.833333333333,10"
-                    Point3="106.833333333333,10" />
-                  <mssgle:LineSegment
-                    End="198.166666666667,10" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Stage Product Type\source product type">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Stage Product Type\Stage Product Type">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
     design-time-name="Package\Stage Product Category">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="193.333333333334,42.6666666666667"
           Id="Package\Stage Product Category\source product category"
@@ -8241,7 +8660,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -8277,54 +8698,446 @@
     design-time-name="Package\Stage Product Target">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="186.666666666667,42.6666666666667"
-          Id="Package\Stage Product Target\Source Product Target"
-          TopLeft="97,97" />
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="174.666666666667,42.6666666666667"
-          Id="Package\Stage Product Target\StageProductTarget"
-          TopLeft="469,87" />
+          Id="Package\Stage Product Target\OLE DB Destination"
+          TopLeft="480.208326177672,92.368422791238" />
+        <NodeLayout
+          Size="154.666666666667,42.6666666666667"
+          Id="Package\Stage Product Target\Flat File Source"
+          TopLeft="109.374998370186,68.2748549817048" />
         <EdgeLayout
           Id="Package\Stage Product Target.Paths[Flat File Source Output]"
-          TopLeft="283.666666666667,118.333333333333">
+          TopLeft="264.041665036852,89.6081883150381">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="185.333333333333,-9.99999999999999"
+              EndConnector="216.166661140819,24.0935678095332"
               Start="0,0"
-              End="177.833333333333,-9.99999999999999">
+              End="208.666661140819,24.0935678095332">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="88.6666666666667,0" />
+                    End="104.08333057041,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="88.6666666666667,0"
-                    Point2="92.6666666666667,0"
-                    Point3="92.6666666666667,-4" />
+                    Point1="104.08333057041,0"
+                    Point2="108.08333057041,0"
+                    Point3="108.08333057041,4" />
                   <mssgle:LineSegment
-                    End="92.6666666666667,-5.99999999999999" />
+                    End="108.08333057041,20.0935678095332" />
                   <mssgle:CubicBezierSegment
-                    Point1="92.6666666666667,-5.99999999999999"
-                    Point2="92.6666666666667,-9.99999999999999"
-                    Point3="96.6666666666667,-9.99999999999999" />
+                    Point1="108.08333057041,20.0935678095332"
+                    Point2="108.08333057041,24.0935678095332"
+                    Point3="112.08333057041,24.0935678095332" />
                   <mssgle:LineSegment
-                    End="177.833333333333,-9.99999999999999" />
+                    End="208.666661140819,24.0935678095332" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Stage Product Target\StageProductTarget">
+    design-time-name="Package\Stage Product Target\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Stage Product Type">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="173.333333333334,42.6666666666667"
+          Id="Package\Stage Product Type\Stage Product Type"
+          TopLeft="509,79" />
+        <NodeLayout
+          Size="173.333333333334,42.6666666666667"
+          Id="Package\Stage Product Type\source product type"
+          TopLeft="130,69" />
+        <EdgeLayout
+          Id="Package\Stage Product Type.Paths[OLE DB Source Output]"
+          TopLeft="303.333333333333,90.3333333333333">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="205.666666666667,10"
+              Start="0,0"
+              End="198.166666666667,10">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="98.8333333333333,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="98.8333333333333,0"
+                    Point2="102.833333333333,0"
+                    Point3="102.833333333333,4" />
+                  <mssgle:LineSegment
+                    End="102.833333333333,6" />
+                  <mssgle:CubicBezierSegment
+                    Point1="102.833333333333,6"
+                    Point2="102.833333333333,10"
+                    Point3="106.833333333333,10" />
+                  <mssgle:LineSegment
+                    End="198.166666666667,10" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Stage Product Type\source product type">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Stage Product Type\Stage Product Type">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Stage Reseller">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="153.333333333334,42.6666666666667"
+          Id="Package\Stage Reseller\StagedReseller"
+          TopLeft="486,109" />
+        <NodeLayout
+          Size="156,42.6666666666667"
+          Id="Package\Stage Reseller\Source Reseller"
+          TopLeft="126,78" />
+        <EdgeLayout
+          Id="Package\Stage Reseller.Paths[OLE DB Source Output]"
+          TopLeft="282,99.3333333333333">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="204,31"
+              Start="0,0"
+              End="196.5,31">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="98,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="98,0"
+                    Point2="102,0"
+                    Point3="102,4" />
+                  <mssgle:LineSegment
+                    End="102,27" />
+                  <mssgle:CubicBezierSegment
+                    Point1="102,27"
+                    Point2="102,31"
+                    Point3="106,31" />
+                  <mssgle:LineSegment
+                    End="196.5,31" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Stage Reseller\Source Reseller">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Stage Reseller\StagedReseller">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Stage SalesDetails">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="164,42.6666666666667"
+          Id="Package\Stage SalesDetails\Stage SalesDetail"
+          TopLeft="483,104" />
+        <NodeLayout
+          Size="170.666666666667,42.6666666666667"
+          Id="Package\Stage SalesDetails\Source SalesDetail"
+          TopLeft="139,82" />
+        <EdgeLayout
+          Id="Package\Stage SalesDetails.Paths[OLE DB Source Output]"
+          TopLeft="309.666666666667,103.333333333333">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="173.333333333333,22"
+              Start="0,0"
+              End="165.833333333333,22">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="82.6666666666667,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="82.6666666666667,0"
+                    Point2="86.6666666666667,0"
+                    Point3="86.6666666666667,4" />
+                  <mssgle:LineSegment
+                    End="86.6666666666667,18" />
+                  <mssgle:CubicBezierSegment
+                    Point1="86.6666666666667,18"
+                    Point2="86.6666666666667,22"
+                    Point3="90.6666666666667,22" />
+                  <mssgle:LineSegment
+                    End="165.833333333333,22" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Stage SalesDetails\Source SalesDetail">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Stage SalesDetails\Stage SalesDetail">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Stage SalesHeader">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="174.666666666667,42.6666666666667"
+          Id="Package\Stage SalesHeader\Stage Sales Header"
+          TopLeft="477,81" />
+        <NodeLayout
+          Size="181.333333333334,42.6666666666667"
+          Id="Package\Stage SalesHeader\Source Sales Header"
+          TopLeft="166,66" />
+        <EdgeLayout
+          Id="Package\Stage SalesHeader.Paths[OLE DB Source Output]"
+          TopLeft="347.333333333333,87.3333333333333">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="129.666666666667,15"
+              Start="0,0"
+              End="122.166666666667,15">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="60.8333333333333,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="60.8333333333333,0"
+                    Point2="64.8333333333333,0"
+                    Point3="64.8333333333333,4" />
+                  <mssgle:LineSegment
+                    End="64.8333333333333,11" />
+                  <mssgle:CubicBezierSegment
+                    Point1="64.8333333333333,11"
+                    Point2="64.8333333333333,15"
+                    Point3="68.8333333333333,15" />
+                  <mssgle:LineSegment
+                    End="122.166666666667,15" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Stage SalesHeader\Source Sales Header">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Stage SalesHeader\Stage Sales Header">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Stage Store">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="133.333333333334,42.6666666666667"
+          Id="Package\Stage Store\StageStore"
+          TopLeft="485,81" />
+        <NodeLayout
+          Size="141.333333333334,42.6666666666667"
+          Id="Package\Stage Store\Source Store"
+          TopLeft="119,70" />
+        <EdgeLayout
+          Id="Package\Stage Store.Paths[OLE DB Source Output]"
+          TopLeft="260.333333333333,91.3333333333333">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="224.666666666667,11"
+              Start="0,0"
+              End="217.166666666667,11">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="108.333333333333,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="108.333333333333,0"
+                    Point2="112.333333333333,0"
+                    Point3="112.333333333333,4" />
+                  <mssgle:LineSegment
+                    End="112.333333333333,7" />
+                  <mssgle:CubicBezierSegment
+                    Point1="112.333333333333,7"
+                    Point2="112.333333333333,11"
+                    Point3="116.333333333333,11" />
+                  <mssgle:LineSegment
+                    End="217.166666666667,11" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Stage Store\Source Store">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Stage Store\StageStore">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -8340,15 +9153,15 @@
     design-time-name="Package\Stage StoreReChanelTarget">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="240,42.6666666666667"
-          Id="Package\Stage StoreReChanelTarget\source StoreResellChannelTarget"
-          TopLeft="111,84" />
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="236,42.6666666666667"
           Id="Package\Stage StoreReChanelTarget\Stage StoreResellChannelTarget"
           TopLeft="578,91" />
+        <NodeLayout
+          Size="240,42.6666666666667"
+          Id="Package\Stage StoreReChanelTarget\source StoreResellChannelTarget"
+          TopLeft="111,84" />
         <EdgeLayout
           Id="Package\Stage StoreReChanelTarget.Paths[Flat File Source Output]"
           TopLeft="351,108.833333333333">
@@ -8368,7 +9181,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
