@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="57"
-  DTS:VersionGUID="{D4B832B5-7D1C-418C-932E-B6E6445E379A}">
+  DTS:VersionBuild="58"
+  DTS:VersionGUID="{A4CA021B-DFDF-4112-940A-C05D26CAF192}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -37,7 +37,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAKgY1N98FrEeLUScm4RBOxWYk0b78virkQ5i+GWHUzBQAAAAAOgAAAAAIAACAAAAAFVZV5tuVtDZxBzVGfphq++5dCD1PCp+s/7wStxfRy6jAAAADi08rhdm0vo98vTbXTAqkWq8veCpYj/0mR1qkt9rSXSSbiWfL2sXEazYZKpExZW5ZAAAAAncIOyjRU6g5Mk+wvGDSnpxJ1skSz7VrAPkHMZLyZmrKF0gICukqJPm1NZHzgadZGGDqPFQ67nR65OEe8C3hj/w</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA564N5Zc3uSpue04vsLJPkYjtkFwLir6Qs51wb6ZXkEgAAAAAOgAAAAAIAACAAAACcDLMyERL79+cPJzJVH2unok8FaITALQmiJf0c5DzSGDAAAAAx2KOn3OOA1FunVLTmGHYjazdheAF871eSg8gKyj+X4jDIuJBItAVl5Lv79t9Q2n5AAAAAKojOqSv+P8YosB6SiJBUFt84kcGjIs496q4vYCPKYEvHPnQq3KQmvoI7eRKAuth/aXOrFoVBAovC2B8TwOahJg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -52,7 +52,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAArddLGF7E3yymc0XImLj7vHcgOzdsr+L/9wsMBb6DQhgAAAAAOgAAAAAIAACAAAABiOCf/ABhZ5ybh6dz2FoN04rYQtOezMv0MfDCpC43NzjAAAADrjc2Ta66C6tQ6Juf6X+gIaVY5etsQGOZqy3Hl+B+OG9JTlePP6aYj/Z7JO3KT+ZZAAAAAp5qRssA+grpwyJscN+jXIKShKr6sbWjZuxGfDid1lJKgN2c5DI5DAcFuM4YMc7Y7yglueAF2hI3UFNsFlWssJg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABL63ayZaJiYd2g+mJEXRePvpzzjNFune/sCTe3IPTh0gAAAAAOgAAAAAIAACAAAAAw66K/nt34mw726yy3eYC580nK+Qua+YULkMAZWUjN8zAAAACEPi32b+8lKxHDwJNw9dTPKmWQzvTzPUTK8LJ/Dm9cY/AD67k/DOmjLcE9sZepm+BAAAAAzOJDO7eVzFcn4933Dd5RSqLsQU0GtxZSc7euxk77o2APKrl04RiLPoXaO4tq62c0tEmjFvKIIrUGgHt3QHvyfg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -67,7 +67,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAABJ/uCJzJqRmZMk10qH7LX2EeI9cVFGKA5yefuQvTSQAAAAAAOgAAAAAIAACAAAADuZaO6Xu9Oje7VjCn4wq0jxt4VBbbk3w0ezozXAvYEhTAAAABh/qsuhgS/FOYeJ4v9Hj5r/6y1GNQ5NaSt8dcuxQZYuIUEHh8BUr1oELRU7TQw8kxAAAAAD0Jkeop372lLxNrYPvbrwFd3oSN2qlazOViWiD10M3RDg9gNbhCgfWfIcVf0eWOP3GUGPZJ/FFI1kYRnoez5dQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAljBUNfPel/I2DkgUDPSGIFdqcu3YWk6Ni5i+bvcmgLAAAAAAOgAAAAAIAACAAAAAV8jGN7vfMEWPlMrMQ/ZW3OBf0/UKuZSQkfJSsoBFoDjAAAAB3dvzTAn+f7rSsf53EEnaSCa6jy17EcmWVnpUMghb4ZRrqVu2Ov8by6u2n+bH7haZAAAAAbq46n2SqnrslVtVq0lxrZxLJuExncR2KrSM1jvlVCDHRXMheD0szh7sjKcouZYUhlrGI8ZuMptmmddkkWbmRUQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -82,7 +82,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB7tJ++NlxNARK5YJTagEae0KuEGqG3CrN1xt2zl2jsjAAAAAAOgAAAAAIAACAAAAC/Ekhhgm7OuzWOWdKkbcbkowKbJZ5Z8RBY4pfz/aBgzTAAAAD5gd37fwnxG9wE1/V0Y1HxRR1dujeJItM8bDB5N8MUD5ooK54aquhspR81WGjYxyRAAAAAmBekhNEjpSWRYqs/vVCD3Tj4kPh+I3GzPAi5krHkpFEm0P6TXDTgWUXa4Z97IIZFiaAfYA8wAYY1+JIpUtOzvg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD/HTz/3S3q2LHc/zyjtIBtur1KWvAanl4eSnXJjjiiqwAAAAAOgAAAAAIAACAAAACh4Q/FA4WNPaB+VqcTz+v3wd89ELOm6YaG/72mBj1zijAAAABsMoAnkMCC3OmizyEfwTSIHdYdK9+ILD2bGKNhO3RpGbqSqcS0RbCP4uce4PVGi/lAAAAAXhTk0JJtnT/VSexlOkgzw1ldaoXnT17vi/6fmja648eLqEFYEv17gv2al7LWcd3gDm4zZFFy3/SE7UO3wZU5Vg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -97,7 +97,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADq3iDM9c9G46Qyep5+PQvR3lp/pPycA92/yDSbEr13/gAAAAAOgAAAAAIAACAAAABn8Gtxd7t8kpZfBP10GMhDxPAV96htc2KZrkL2sWbVdzAAAAACJ2TGiUF8KAITyEAh/107KsvzCBzqFEXlIgeMclhaKob4bqmguhKWluezgB/CVWhAAAAAcnpMQudFR8zPo56DAikIMxWwZ+73ECRskxQ88xjDIlNECM68KAhWyrfiHPiCKUKE2x4bema1VLoxBuKCXsgyaw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA70CJZZuzEHLiw1fzy4WG6wQgHXUXVwAEbbXG7GZNZRQAAAAAOgAAAAAIAACAAAADkGHElOMjzhU2Q9NCiJZZ2d4mNgvQI1lM6IgYyPSS1ozAAAAC8ROHYKe50KGuBYEZbCghIynsllgFbQ+qgQGacDAzohtftO+H6D84NMzv41KcPw79AAAAAOIWB85rtVBLMMmo0ZI43+X11cD1tRlAsQuIHTbNDYoIvjqtDVrWxa40PR8csPkbFUHw2/DM+diN33PxoB1YOeA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -265,6 +265,23 @@
         <SQLTask:SqlTaskData
           SQLTask:Connection="{111F60C2-AF2E-408F-8FF4-245C9C7DFD4B}"
           SQLTask:SqlStatementSource="USE SourceSystem;&#xA;&#xA;DROP TABLE IF EXISTS [DestinationSystem].[dbo].[stagefactSalesActual]&#xA;GO&#xA;&#xA;SELECT  &#xA;dbo.[SalesDetail].SalesHeaderID,&#xA;&#xA;dbo.[SalesDetail].SalesDetailID,&#xA;&#xA;dbo.Product.ProductID,&#xA;&#xA;NULL as dimProductID,&#xA;&#xA;dbo.Store.StoreID,&#xA;&#xA;NULL as dimStoreID,&#xA;&#xA;dbo.Reseller.ResellerID,&#xA;&#xA;NULL as dimRellerID, &#xA;&#xA;dbo.Customer.CustomerID,&#xA;&#xA;NULL as dimCustomerID,&#xA;&#xA;dbo.Channel.ChannelID,&#xA;&#xA;NULL as dimChannelID,&#xA;&#xA;COALESCE(dbo.store.Address,dbo.Reseller.address,dbo.Customer.address) as address,&#xA;&#xA;NULL as dimLocationID,&#xA;&#xA; dbo.ProductCategory.ProductCategory, &#xA;&#xA; dbo.ProductType.ProductType, &#xA;&#xA; dbo.Product.Product,&#xA;&#xA; dbo.UnitofMeasure.UnitofMeasure,&#xA;&#xA; dbo.SubSegment.SubSegment,&#xA;&#xA; dbo.[SalesHeader].[Date] as SalesDate,&#xA;&#xA; NULL as DimDateID,&#xA;&#xA; dbo.Channel.Channel,&#xA;&#xA; dbo.ChannelCategory.ChannelCategory,&#xA;&#xA; dbo.Reseller.ResellerName,&#xA;&#xA; dbo.Store.StoreNumber,&#xA;&#xA; dbo.[SalesDetail].SalesAmount,&#xA;&#xA; dbo.SalesDetail.SalesQuantity,&#xA; &#xA; dbo.Product.UnitofMeasureID,&#xA;&#xA; dbo.Product.Price as UnitPrice, &#xA;&#xA; dbo.Product.Cost as SalesExtendedCost, &#xA;&#xA; dbo.Product.WholesalePrice,&#xA; &#xA; dbo.SalesDetail.SalesQuantity * (dbo.Product.Price - dbo.Product.Cost) as SalesTotalProfit&#xA;&#xA; INTO [DestinationSystem].[dbo].[stagefactSalesActual]&#xA;&#xA;FROM  dbo.ProductCategory&#xA;&#xA;INNER JOIN  dbo.ProductType  ON  dbo.ProductCategory.ProductCategoryID  =  dbo.ProductType.ProductCategoryID&#xA;&#xA;INNER JOIN  dbo.Product  ON  dbo.ProductType.ProductTypeID  =  dbo.Product.ProductTypeID&#xA;&#xA;INNER JOIN  dbo.UnitofMeasure on dbo.Product.UnitofMeasureID = dbo.UnitofMeasure.UnitofMeasureID&#xA;&#xA;INNER JOIN dbo.[SalesDetail] on dbo.[SalesDetail].ProductID = dbo.Product.ProductID&#xA;&#xA;INNER JOIN dbo.SalesHeader   on  dbo.SalesHeader.SalesHeaderID = dbo.[SalesDetail].SalesHeaderID&#xA;&#xA;INNER JOIN dbo.Channel on dbo.Channel.ChannelID = dbo.SalesHeader.ChannelID&#xA;&#xA;INNER JOIN dbo.ChannelCategory on dbo.ChannelCategory.ChannelCategoryID = dbo.Channel.ChannelCategoryID&#xA;&#xA;LEFT JOIN dbo.Reseller on dbo.SalesHeader.ResellerID = dbo.Reseller.ResellerID&#xA;&#xA;LEFT JOIN dbo.Store on dbo.Store.StoreID = dbo.SalesHeader.StoreID&#xA;&#xA;LEFT JOIN dbo.Customer on dbo.Customer.CustomerID = dbo.SalesHeader.CustomerID&#xA;&#xA;LEFT JOIN dbo.SubSegment on dbo.SubSegment.SubSegmentID = dbo.Customer.SubSegmentID&#xA;&#xA;--LEFT JOIN dbo.Segment on dbo.Segment.SegmentID = dbo.SubSegment.se&#xA;&#xA;--order by ProductID&#xA;&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Create Views"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{1273B5F6-13B2-46E5-8397-BC84314E1BC3}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Create Views"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{111F60C2-AF2E-408F-8FF4-245C9C7DFD4B}"
+          SQLTask:SqlStatementSource="&#xA;USE [DestinationSystem]&#xA;&#xA;GO &#xA;&#xA;Drop VIEW IF EXISTS [dbo].[dimChannel_View]&#xA;GO&#xA;CREATE VIEW dimChannel_View AS  &#xA;SELECT  [dimChannelID] &#xA;,[dimSourceChannelID] &#xA;,[dimSourceCategoryID] &#xA;,[dimChannelCategoryName] &#xA;,[dimChannelName]   &#xA;FROM [DestinationSystem].[dbo].[dimChannel]&#xA;GO&#xA;&#xA;&#xA;&#xA;Drop VIEW IF EXISTS [dbo].[dimCustomer_View]&#xA;GO&#xA;CREATE VIEW dimCustomer_View AS&#xA;SELECT [dimCustomerID]&#xA;,[dimLocationID]&#xA;,[dimSourceCustomerID] &#xA;,[dimSourceCustomerFullName] &#xA;,[dimSourceCustomerFirstName] &#xA;,[dimSourceCustomerLastName] &#xA;,[dimSourceCustomerGender]&#xA;FROM [DestinationSystem].[dbo].[dimCustomer]&#xA;GO&#xA;&#xA;Drop VIEW IF EXISTS [dbo].[DimDate_View]&#xA;GO&#xA;CREATE VIEW DimDate_View AS &#xA;SELECT [DimDateID]&#xA;,[FullDate]&#xA;,[DayNumberOfWeek] &#xA;,[DayNameOfWeek] &#xA;,[DayNumberOfMonth]&#xA;,[DayNumberOfYear]&#xA;,[WeekdayFlag] &#xA;,[WeekNumberOfYear]&#xA;,[MonthName] &#xA;,[MonthNumberOfYear]&#xA;,[CalendarQuarter]&#xA;,[CalendarYear]&#xA;,[CalendarSemester]&#xA;,[CreatedDate]&#xA;,[CreatedBy] &#xA;,[ModifiedDate] &#xA;,[ModifiedBy]&#xA;FROM [DestinationSystem].[dbo].[DimDate]&#xA;GO&#xA;&#xA;Drop VIEW IF EXISTS [dbo].[dimLocation_View]&#xA;GO&#xA;CREATE VIEW dimLocation_View AS  &#xA;SELECT [dimLocationID]&#xA;,[dimSourceAddress]&#xA;,[dimSourceCity]&#xA;,[dimSourcePostalCode]&#xA;,[dimSourceState_Province] &#xA;,[dimSourceCountry]&#xA;FROM [DestinationSystem].[dbo].[dimLocation]&#xA;GO&#xA;&#xA;Drop VIEW IF EXISTS [dbo].[dimProduct_View]&#xA;GO&#xA;CREATE VIEW dimProduct_View AS &#xA;SELECT [dimProductID] &#xA;,[dimSourceProductID]&#xA;,[dimSourceProductIDTypeID] &#xA;,[dimSourceProductCategoryID] &#xA;,[dimSourceProductName] &#xA;,[dimSourceProductType]&#xA;,[dimSourceProductCategory]&#xA;,[dimSourceProductRetailPrice]&#xA;,[dimSourceProductWholeSalePrice]&#xA;,[dimSourceProductCost]&#xA;,[dimSourceRetailProfit]&#xA;,[dimSourceProductWholesaleUnitProfit] &#xA;,[dimSourceProductProfitMarginUnitPercent]&#xA;FROM [DestinationSystem].[dbo].[dimProduct]&#xA;GO&#xA;&#xA;Drop VIEW IF EXISTS [dbo].[dimReseller_View]&#xA;GO&#xA;CREATE VIEW dimReseller_View AS&#xA;SELECT  [dimRellerID]&#xA;,[dimLocationID] &#xA;,[dimSourceResellerID] &#xA;,[dimSourceResellerName] &#xA;,[dimSourceConctactName] &#xA;,[dimSourcePhoneNumber]&#xA;,[dimSourceEmail]&#xA;FROM [DestinationSystem].[dbo].[dimReseller]&#xA;GO&#xA;&#xA;Drop VIEW IF EXISTS [dbo].[dimStore_View]&#xA;GO&#xA;CREATE VIEW dimStore_View AS&#xA;SELECT [dimStoreID]&#xA;,[dimLocationID]&#xA;,[dimSourceStoreID]&#xA;,[dimSourceStoreName]&#xA;,[dimSourceStoreNumber] &#xA;,[dimSourceStoreManager]&#xA;FROM [DestinationSystem].[dbo].[dimStore]&#xA;GO&#xA;&#xA;&#xA;Drop VIEW IF EXISTS [dbo].[factProductSalesTarget_View]&#xA;GO&#xA;CREATE VIEW factProductSalesTarget_View AS&#xA;SELECT [factSalesTargetlID]&#xA;,[dimProductID]&#xA;,[DimTargetDateID] &#xA;,[ProductTargetSalesQuantity] &#xA;FROM [DestinationSystem].[dbo].[factProductSalesTarget]&#xA;GO&#xA;&#xA;Drop VIEW IF EXISTS [dbo].[factSalesActual_View]&#xA;GO&#xA;CREATE VIEW factSalesActual_View AS  &#xA;SELECT [factSalesActualID] &#xA;,[dimProductID]&#xA;,[dimStoreID] &#xA;,[dimRellerID]&#xA;,[dimCustomerID]&#xA;,[dimChannelID]&#xA;,[DimDateID]&#xA;,[dimLocationID]&#xA;,[SalesHeaderID]&#xA;,[SalesDetailID]&#xA;,[SalesAmount] &#xA;,[SalesQuantity]&#xA;,[SalesUnitPrice]&#xA;,[SalesExtendedCost]&#xA;,[SalesTotalProfit] &#xA;FROM [DestinationSystem].[dbo].[factSalesActual]&#xA;GO&#xA;&#xA;&#xA;Drop VIEW IF EXISTS [dbo].[factSRCSalesTarget_View]&#xA;GO&#xA;CREATE VIEW factSRCSalesTarget_View AS &#xA;SELECT [factSRCSalesTargetID] &#xA;,[dimStoreID]&#xA;,[dimResellerID] &#xA;,[dimChannelID] &#xA;,[DimTargetDateID]&#xA;,[SalesTargetAmount] &#xA;FROM [DestinationSystem].[dbo].[factSRCSalesTarget]&#xA;GO&#xA;&#xA;Drop VIEW IF EXISTS [dbo].[PBI_REPORTING_VIEW]&#xA;GO&#xA;CREATE VIEW PBI_REPORTING_VIEW as &#xA;(  SELECT factSalesActualID,&#xA;SalesHeaderID,&#xA;SalesAmount, &#xA;SalesQuantity,&#xA;SalesUnitPrice,&#xA;SalesExtendedCost,&#xA;dimSourceProductName as ProductName,&#xA;dimSourceProductType as ProductType,&#xA;dimSourceProductCategory as ProductCategory,&#xA;dimSourceProductRetailPrice as ProductRetailPrice,&#xA;dimSourceProductWholeSalePrice as ProductWholeSalePrice,&#xA;dimSourceProductCost as ProductCost,&#xA;dimSourceRetailProfit as RetailProfit,&#xA;dimSourceProductWholesaleUnitProfit as ProductWholesaleUnitProfit,&#xA;dimSourceProductProfitMarginUnitPercent as ProfitMarginUnitPercent,&#xA;FullDate as SalesDate,&#xA;DayNumberOfWeek,&#xA;DayNameOfWeek,&#xA;ProductTargetSalesQuantity,&#xA;dimSourceStoreNumber as StoreNumber,&#xA;dimSourceResellerName as ResellerName,&#xA;dimSourceCustomerFullName as CustomerFullName,&#xA;dimChannelCategoryName as ChannelCategoryName,&#xA;dimChannelName as ChannelName,&#xA;v3.dimSourceState_Province as [State],&#xA;v3.dimSourceCity as city,&#xA;SalesTargetAmount as PRCSalesTarget &#xA;FROM [DestinationSystem].[dbo].[factSalesActual_View]&#xA;INNER JOIN [dbo].[dimProduct_View]    ON [DestinationSystem].[dbo].[factSalesActual_View].dimProductID = [dbo].[dimProduct_View].dimProductID &#xA;INNER JOIN [dbo].[DimDate_View]    ON [DestinationSystem].[dbo].[factSalesActual_View].DimDateID = [dbo].[DimDate_View].DimDateID&#xA;INNER JOIN factProductSalesTarget_View    ON factProductSalesTarget_View.dimProductID = dimProduct_View.dimProductID    and factProductSalesTarget_View.DimTargetDateID = DimDate_View.DimDateID &#xA;INNER JOIN dimStore_View    ON [factSalesActual_View].dimStoreID = dimStore_View.dimStoreID &#xA;INNER JOIN dimReseller_View    ON [factSalesActual_View].dimRellerID = dimReseller_View.dimRellerID &#xA;INNER JOIN dimCustomer_View    ON [factSalesActual_View].dimCustomerID = dimCustomer_View.dimCustomerID &#xA;INNER JOIN dimChannel_View    ON [factSalesActual_View].dimChannelID = dimChannel_View.dimChannelID &#xA;INNER JOIN dimLocation_View    ON dimStore_View.dimLocationID = dimLocation_View.dimLocationID &#xA;INNER JOIN dimLocation_View as v    ON dimReseller_View.dimLocationID = v.dimLocationID &#xA;INNER JOIN dimLocation_View as v2    on dimCustomer_View.dimLocationID = v2.dimLocationID &#xA;INNER JOIN factSRCSalesTarget_View    on factSRCSalesTarget_View.dimStoreID = dimStore_View.dimStoreID   &#xA;and factSRCSalesTarget_View.dimResellerID = dimReseller_View.dimRellerID &#xA;and factSRCSalesTarget_View.dimChannelID = dimChannel_View.dimChannelID &#xA;and factSRCSalesTarget_View.DimTargetDateID = DimDate_View.DimDateID&#xA;INNER JOIN dimLocation_View as v3   ON [factSalesActual_View].dimLocationID = v3.dimLocationID   )" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -6965,6 +6982,14 @@
       DTS:ObjectName="Constraint 35"
       DTS:To="Package\load src target" />
     <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 36]"
+      DTS:CreationName=""
+      DTS:DTSID="{0F22145B-E630-45B4-9D83-7AB557C5895A}"
+      DTS:From="Package\load src target"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 36"
+      DTS:To="Package\Create Views" />
+    <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 4]"
       DTS:CreationName=""
       DTS:DTSID="{CF67D17A-A5CA-4A18-8076-880863A94106}"
@@ -7053,6 +7078,10 @@
           Size="168,42.6666666666667"
           Id="Package\load product target"
           TopLeft="1772.91664024815,405.964919921984" />
+        <NodeLayout
+          Size="146.666666666667,42.6666666666667"
+          Id="Package\load src target"
+          TopLeft="1762.77776548432,494.26900979738" />
         <NodeLayout
           Size="194.666666666667,42.6666666666667"
           Id="Package\Load temp to Sales Fact"
@@ -8066,6 +8095,40 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 35]"
+          TopLeft="1856.91664024815,448.631586588651">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-20.8055414304972,45.6374232087295"
+              Start="0,0"
+              End="-20.8055414304972,38.1374232087295">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,18.8187116043648" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,18.8187116043648"
+                    Point2="0,22.8187116043648"
+                    Point3="-4,22.8187116043648" />
+                  <mssgle:LineSegment
+                    End="-16.8055414304972,22.8187116043648" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-16.8055414304972,22.8187116043648"
+                    Point2="-20.8055414304972,22.8187116043648"
+                    Point3="-20.8055414304972,26.8187116043648" />
+                  <mssgle:LineSegment
+                    End="-20.8055414304972,38.1374232087295" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
           TopLeft="158.333332439264,275.87719680739">
           <EdgeLayout.Curve>
@@ -8264,35 +8327,35 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
-          Size="146.666666666667,42.6666666666667"
-          Id="Package\load src target"
-          TopLeft="1762.77776548432,494.26900979738" />
+          Size="142.666666666667,42.6666666666667"
+          Id="Package\Create Views"
+          TopLeft="1747.08331316089,566.526326452926" />
         <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 35]"
-          TopLeft="1856.91664024815,448.631586588651">
+          Id="Package.PrecedenceConstraints[Constraint 36]"
+          TopLeft="1836.11109881765,536.935676464047">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-20.8055414304972,45.6374232087295"
+              EndConnector="-17.6944523234336,29.5906499888797"
               Start="0,0"
-              End="-20.8055414304972,38.1374232087295">
+              End="-17.6944523234336,22.0906499888797">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,18.8187116043648" />
+                    End="0,10.7953249944399" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,18.8187116043648"
-                    Point2="0,22.8187116043648"
-                    Point3="-4,22.8187116043648" />
+                    Point1="0,10.7953249944399"
+                    Point2="0,14.7953249944399"
+                    Point3="-4,14.7953249944399" />
                   <mssgle:LineSegment
-                    End="-16.8055414304972,22.8187116043648" />
+                    End="-13.6944523234336,14.7953249944399" />
                   <mssgle:CubicBezierSegment
-                    Point1="-16.8055414304972,22.8187116043648"
-                    Point2="-20.8055414304972,22.8187116043648"
-                    Point3="-20.8055414304972,26.8187116043648" />
+                    Point1="-13.6944523234336,14.7953249944399"
+                    Point2="-17.6944523234336,14.7953249944399"
+                    Point3="-17.6944523234336,18.7953249944399" />
                   <mssgle:LineSegment
-                    End="-20.8055414304972,38.1374232087295" />
+                    End="-17.6944523234336,22.0906499888797" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
